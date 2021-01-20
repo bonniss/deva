@@ -1,0 +1,4 @@
+baseURL = "http://deva.me/"
+languageCode = "en-us"
+title = "Deva"
+theme = "anubis"

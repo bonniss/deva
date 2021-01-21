@@ -1,5 +1,5 @@
 [build]
-  command = "hugo -D"
+  command = "hugo -D --gc --minify"
   context = "production"
   publish = "public"
 

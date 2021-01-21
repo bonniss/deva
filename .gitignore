@@ -1,2 +1,7 @@
 /public/*
 /note.md
+
+node_modules/
+/npm-debug.log
+.DS_Store
+out/

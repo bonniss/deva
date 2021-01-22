@@ -5,7 +5,7 @@ tags:
 draft: true
 ---
 Bạn đã bao giờ bực bội khi giảng bài cho một đứa cháu về một bài toán "dễ thế mà mày cũng không hiểu" chưa? Khi bạn đã biết điều gì rồi, không dễ để thấu hiểu cảm giác không biết điều đó như thế nào nữa...
-<!-- more -->
+<!--more-->
 Hồi còn là sinh viên, người viết, xin tự xưng là "tôi", ngủ gật lõm bàn trên giảng đường. Ok, tôi từng là một sinh viên lười học và kém ý chí như thế. Nhưng thực sự một số môn tôi ngủ gật vì giáo viên dạy rất "chán": tôi không hiểu giáo viên đang nói cái gì, trong khi cùng bài học đó tôi có thể hiểu ngay khi đọc tài liệu của chính thầy cô đó viết. Sau này đi làm, tiếp xúc với nhiều bạn bè từ nhiều trường khác nhau, tôi được nghe rằng hầu như trường nào cũng có những "Tiến sỹ gây mê" kiểu như vậy. Họ đều là những chuyên gia giỏi và những giảng viên tồi. Vấn đề lớn nhất của những thầy cô này là họ quên mất cảm giác của một sinh viên lúc chưa biết kiến thức đó là như thế nào, mặc dù họ cũng đã từng trải qua giai đoạn đó, dẫn đến cách tiếp cận với sinh viên dường như quá cao siêu và sinh viên như "vịt nghe sấm".
 
 ## Không chỉ là câu chuyện giáo dục

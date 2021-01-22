@@ -2,6 +2,7 @@
 title: Cẩm nang code "như một nhẫn giả"
 date: 2019-08-26 22:32:08
 draft: false
+favorite: true
 categories:
   - Lập trình
 tags:
@@ -11,10 +12,13 @@ tags:
 ---
 
 Khổng Tử nói: "Học mà không nghĩ thì phí công phí sức, nghĩ mà không học thì hiểm họa khôn lường".
+<!--more-->
 
-<!-- more -->
+> Nhẫn Giả hay còn gọi là Ninja (忍者) hoặc Shinobi (忍び) - cách viết vắn tắt của shinobi no mono (忍の者). Trong nghĩa gốc Hán, chữ 忍 có nghĩa là "nhẫn" (nhẫn nhịn, kiên nhẫn), trong tiếng Nhật nó lại có nghĩa là "ẩn" (ẩn nấp, tàng ẩn). Chữ 者 nghĩa là "giả" (người).
 
-Các ninja lập trình trong quá khứ đã dùng những chiêu thức này để tôi luyện trí não cho các maintainer.
+![ninja](/images/gallery/ninja-code/ninja.jpg)
+
+Từ ngàn xưa, các ninja lập trình đã dùng những chiêu thức sắp kể sau đây để tôi luyện trí não cho các maintainer.
 
 Cao thủ review code trong thiên hạ tìm kiếm những thứ này trong khi test code.
 
@@ -45,7 +49,7 @@ Một chiêu thức hữu hiệu để code nhanh hơn đó là sử dụng tên
 
 Các biến này hòa vào trong code như một ninja vụt mất sau cánh rừng thẳm: không ai có thể tìm được chúng bằng tính năng "search" của editor. Hoặc kể cả khi một gã may mắn nào đó tìm được, hắn chẳng thể "giải mã" được `a` hay `b` có ý nghĩa gì.
 
-...Nhưng có một ngoại lệ. Một ninja đích thực không bao giờ đặt biến đếm là `i` trong vòng lặp `for` cả. Nhìn quanh mà xem, `x` hoặc `y` chẳng hạn chẳng phải bí hiểm hơn nhiều sao.
+...Nhưng có một ngoại lệ: một ninja đích thực không bao giờ đặt biến đếm là `i` trong vòng lặp `for` cả. Nhìn quanh mà xem, `x` hoặc `y` chẳng hạn chẳng phải bí hiểm hơn nhiều sao.
 
 Những tên biến kỳ vĩ như thế càng trở nên ảo diệu hơn trong trường hợp thân vòng lặp dài cả 1,2 trang (gắng viết dài hơn nữa nếu được). Lúc này nếu ai đó muốn khám phá vòng lặp này, họ sẽ không dễ gì mà thấy được `x` ở đây là biến đếm của vòng lặp.
 

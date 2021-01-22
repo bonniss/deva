@@ -1,31 +1,20 @@
 ---
 title: Hết năm 2018, tôi không giỏi như mọi người nghĩ
 date: 2019-08-12 01:13:47
-thumbnail: /gallery/js-dan/dan-abramov.jpg
 categories:
-  - Random
+  - Lập trình
 tags:
-  - toidich
+  - toi-dich
+  - dan-abramov
   - overreacted
 ---
 Có rất rất nhiều thứ tôi không rành như mọi người vẫn tưởng tượng. Tôi không thấy đó là điều gì khủng khiếp và cũng chẳng có ý định ca thán. (Bạn không thể tránh khỏi những ý kiến trái chiều từ đám đông ngoài kia, kể cả khi bạn đã có chút tiếng tăm nhờ sự nỗ lực không ngừng, thật chuối!)
 <!--more-->
-<!-- {% raw %} -->
-<div class="is-abstract">
-  <p>
-    (Lời người dịch)
-  </p>
-  <p>
-    <a href="https://twitter.com/dan_abramov">Dan Abramov</a> là developer@Reactjs của Facebook. Anh là đồng tác giả của <a href="https://github.com/reduxjs/redux">Redux</a> và <a href="https://github.com/facebook/create-react-app">create-react-app</a>. Ngoài việc là một core member của team React, Dan đóng góp rất tích cực vào cộng đồng open source qua những trả lời issue trên Github hay <a href="https://medium.com/@dan_abramov">những bài viết cực kỳ chất lượng trên Medium</a>, hỗ trợ hiệu quả cho các dev Javascript trên toàn thế giới. Dan còn là một diễn giả ấn tượng tại các sự kiện lớn của cộng đồng Javascript với lối diễn đạt gần gũi, dễ hiểu nhưng chặt chẽ, cách giải quyết vấn đề trọng tâm và trực quan. Phong cách đặc trưng này được thấy ngay tại blog cá nhân <a href="https://overreacted.io/">Overreacted</a>, nơi Dan "explain with words and code". Nội dung blog viết bằng tiếng Anh và Nga, nội dung đa ngôn ngữ được <a href="https://github.com/gaearon/overreacted.io#contributing-translations">đóng góp bởi cộng đồng</a>.
-  </p>
-  <p>
-    Duy Trung xin đăng bản dịch một số bài viết, trước khi tạo pull request đến Overreacted. Tò mò thêm về Dan, xem <a href="https://twitter.com/dan_abramov/status/618009308211585024">tại đây</a>.
-  </p>
-  <p>
-    Trong bài này, Dan viết vào cuối năm 2018 về những thứ mà anh không giỏi như người ta vẫn nghĩ. Bài học rút ra là đừng hạ thấp giá trị bản thân vì không ai có thể giỏi mọi thứ. Hãy xác định tốt những thế mạnh của mình và bổ sung những thiếu hụt khi cần thiết. Bài viết gốc <a href="https://overreacted.io/things-i-dont-know-as-of-2018/">tại đây</a>.
-  </p>
-</div>
-<!-- {% endraw %} -->
+> *[Lời người dịch]*
+>
+> [Dan Abramov](https://twitter.com/dan_abramov) là developer@Reactjs của Facebook. Anh là đồng tác giả của [Redux](https://github.com/reduxjs/redux) và [create-react-app](https://github.com/facebook/create-react-app). Ngoài việc là một core member của team React, Dan đóng góp rất tích cực vào cộng đồng open source qua những trả lời issue trên Github hay [những bài viết cực kỳ chất lượng trên Medium](https://medium.com/@dan_abramov), hỗ trợ hiệu quả cho các dev Javascript trên toàn thế giới. Dan còn là một diễn giả ấn tượng tại các sự kiện lớn của cộng đồng Javascript với lối diễn đạt gần gũi, dễ hiểu nhưng chặt chẽ, cách giải quyết vấn đề trọng tâm và trực quan. Phong cách đặc trưng này được thấy ngay tại blog cá nhân [Overreacted](https://overreacted.io) nơi Dan "explain with words and code". Nội dung blog viết bằng tiếng Anh và Nga, nội dung đa ngôn ngữ được [đóng góp bởi cộng đồng](https://github.com/gaearon/overreacted.io#contributing-translations). [Xem tại đây](https://twitter.com/dan_abramov/status/618009308211585024) nếu bạn muốn biết rõ hơn về anh chàng tài năng này.
+>
+> Post sau đây được Dan viết vào cuối năm 2018 về nhiều thứ mà anh không giỏi như người ta vẫn nghĩ. Bài học rút ra là không ai có thể giỏi mọi thứ. Hãy xác định tốt những thế mạnh của mình và bổ sung những thiếu hụt khi cần thiết, đừng tự hạ thấp giá trị bản thân. Xem bài viết gốc bằng tiếng Anh [tại đây](https://overreacted.io/things-i-dont-know-as-of-2018). Bản dịch dưới đây đã được [chấp nhận như bản tiếng Việt chính thức cho bài viết này](https://overreacted.io/vi/things-i-dont-know-as-of-2018/).
 
 Trong bài này, tôi sẽ đưa ra một danh sách chưa đầy đủ về những chủ đề trong lập trình mà mọi người lầm tưởng rằng tôi biết. Tôi KHÔNG nói rằng bạn KHÔNG nên học chúng, hay tôi không biết những thứ hay ho khác. Hiện tại tôi không đảm nhận một vị trí trọng yếu nào cả, do đó tôi có thể vô tư mà thành thật về những thứ này.
 

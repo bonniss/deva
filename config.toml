@@ -1,7 +1,0 @@
-baseURL = ""
-languageCode = "en-us"
-title = "Deva"
-theme = "anubis"
-
-[params]
-  mainSections = ["developer", "misc", "psychology"]

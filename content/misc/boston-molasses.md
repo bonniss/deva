@@ -1,6 +1,7 @@
 ---
 title: Lý giải sức tàn phá khủng khiếp của thảm họa "ngọt ngào" nhất lịch sử Boston
 date: 2019-08-05 23:44:41
+summary: duy trung
 categories:
   - Thư quán
 tags:
@@ -8,11 +9,8 @@ tags:
 ---
 Tròn 100 năm trước, một bể chứa 2,3 triệu gallon (tương đương 8706 m³ hay 8,7 tỷ lít) mật rỉ đường đột ngột vỡ tung và tàn phá nặng nề thành phố Boston Đông Bắc Hoa Kỳ. Các nhà khoa học hiện đại đã hiểu tại sao cơn sóng thần si-rô này lại chết chóc đến như vậy.
 <!--more-->
-<!-- {% raw %}
-<div class="is-abstract">
-  Bài này đã đăng trên trang <a href="http://teddytapdich.blogspot.com/2017/04/" target="_blank">Thư quán Teddy</a>, một trong những blog dang dở của mình. Bài dịch ra đời hồi 2017 trong lúc nông nhàn rảnh rỗi từ một bài báo trên <a href="https://www.theguardian.com/science/2017/feb/25/study-reveals-why-so-many-met-a-sticky-end-in-bostons-great-molasses-flood" target="_blank">The Guardian</a>.
-</div>
-{% endraw %} -->
+
+> Bài này đã đăng trên trang [Thư quán Teddy](http://teddytapdich.blogspot.com/2017/04/), một trong những blog dang dở của mình. Bài dịch ra đời hồi 2017 trong lúc nông nhàn rảnh rỗi từ một bài báo trên [The Guardian](https://www.theguardian.com/science/2017/feb/25/study-reveals-why-so-many-met-a-sticky-end-in-bostons-great-molasses-flood).
 
 Trận "Đại hồng thủy kẹo mạch nha", ngỡ chỉ xuất hiện trong các câu chuyện thần tiên của trẻ nhỏ, thực tế đã xảy ra như một trong những sự kiện thảm khốc và bi thương nhất trong lịch sử thành phố Boston.
 
@@ -26,9 +24,9 @@ Phát biểu tại hội nghị, Nicole Sharp, kỹ sư hàng không vũ trụ �
 
 Vũng si-rô loãng ra một cách chậm chạp, để lại các nạn nhân như những con muỗi vặt nằm trong đám hổ phách nâu màu cánh gián, nằm chờ chết không thể cô độc và lạnh lẽo hơn. Một người đàn ông bị mắc kẹt trong gạch đá của một trạm cứu hỏa vừa đổ sập, thậm chí đã buông xuôi khi không còn sức để gạt dịch mật khỏi mặt nữa.
 
-{% blockquote ông Sharp nói thêm %}
-Thật khủng khiếp cho ai đó giữa thời tiết giá lạnh, bị vắt sức từ từ, tuyệt vọng trong việc thoát ra khỏi đám dịch mật
-{% endblockquote %}
+<!-- {% blockquote ông Sharp nói thêm %} -->
+> Thật khủng khiếp cho ai đó giữa thời tiết giá lạnh, bị vắt sức từ từ, tuyệt vọng trong việc thoát ra khỏi đám dịch mật
+<!-- {% endblockquote %} -->
 
 Ngay trước khi thảm hỏa xảy ra, Boston đón một đợt rét bất thường và nhiệt độ lúc đó là -16 độ C. Bể thép chứa mật tại cảng, vốn chỉ có độ dày bằng một nửa so với thiết kế kỹ thuật, đã xuất hiện những dấu hiệu cong méo. Hai ngày trước thảm họa, bể chứa đầy khoảng 70%, thì một đợt vận chuyển mới mang theo mật rỉ đường nóng từ Ca-ri-bê cập cảng và đổ đầy bể chứa.
 

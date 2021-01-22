@@ -2,17 +2,13 @@
 title: Thiên kiến nhận thức • Thiên thần hay ác quỷ?
 toc: true
 date: 2019-08-14 21:14:54
-thumbnail: /gallery/cognitive-bias/isi-parente-cognitive.jpg
+summary: 'Lời hát trong "Hotel California" lại vang lên: "...We are all just prisoners here, of our own device..."'
 categories:
-  - Psychology
+  - Tâm lý học
 tags:
-  - cognitivebias
-published: true
+  - cognitive-bias
+draft: false
 ---
-
-Lời hát trong "Hotel California" lại vang lên: "...We are all just prisoners here, of our own device..."
-
-<!-- more -->
 
 Một chiều đói việc, người viết đi "khảo sát thị trường" xem [ông cố jQuery sắp chết chưa](https://www.reddit.com/r/webdev/comments/biyzg1/is_jquery_dead/). Tham khảo rất nhiều [bài viết](https://flaviocopes.com/jquery/) chia sẻ quan điểm và cả [issue trên github của jQuery](https://github.com/jquery/jquery/issues/3886), người viết bắt gặp một khái niệm có tên "cognitive bias" khi có một vài dev Q mắng một vài dev R và dev A rằng "các ông thành kiến với jQuery quá", đại loại như vậy. Vốn là một con người ham vui và hay bị cuốn theo các thuật ngữ mới và link tham khảo, người viết google và viết bài này nhằm ghi chép cho kết quả tìm kiếm đó. Cảm nhận về "cognitive bias" khi hiểu sơ sơ là "ồ, hóa ra anh em mình ở chung nhà cả đôi chục năm rồi, mà giờ tôi mới biết tên ông/các bạn."
 

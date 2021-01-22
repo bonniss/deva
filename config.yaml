@@ -1,0 +1,32 @@
+baseURL: ""
+languageCode: "vi-vn"
+defaultContentLanguage: "vi"
+title: "Đen Đá Dev"
+theme: "anubis"
+enableRobotsTXT: true
+
+menu:
+  main:
+  - identifier: archive
+    name: Archive
+    title: Archive
+    url: /developer/
+    weight: 0
+  - identifier: psychology
+    name: Psychology
+    title: Psychology
+    url: /psychology/
+    weight: 0
+
+params:
+  author: "Duy Trung"
+  email: "duytrung.tcu@gmail.com"
+  avatar: "/images/me.png"
+  description: ""
+  readMore: false
+  mainSections: ["developer", "misc", "psychology"]
+  paginationSinglePost: true
+  style: dark
+  dateFormat: "02/01/2006"
+  showCredit: false
+  themeSwitcherPosition: "header"

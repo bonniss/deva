@@ -4,19 +4,20 @@ defaultContentLanguage: "vi"
 title: "Đen Đá Dev"
 theme: "anubis"
 enableRobotsTXT: true
+enableEmoji: true
 
 menu:
   main:
   - identifier: archive
-    name: Archive
-    title: Archive
-    url: /developer/
-    weight: 0
-  - identifier: psychology
-    name: Psychology
-    title: Psychology
-    url: /psychology/
-    weight: 0
+  #   name: Archive
+  #   title: Archive
+  #   url: /categories/developer/
+  #   weight: 0
+  # - identifier: psychology
+  #   name: Psychology
+  #   title: Psychology
+  #   url: /categories/psychology/
+  #   weight: 0
 
 params:
   author: "Duy Trung"
@@ -30,3 +31,8 @@ params:
   dateFormat: "02/01/2006"
   showCredit: false
   themeSwitcherPosition: "header"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # enable raw HTML in Markdown

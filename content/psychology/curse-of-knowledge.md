@@ -14,11 +14,11 @@ Hồi còn là sinh viên, người viết, xin tự xưng là "tôi", ngủ g�
 
 - Hỏi đường: Bạn đến một thành phố xa lạ. Bạn hỏi đường đến tiệm tạp hóa gần nhất và nhận được những chỉ dẫn bằng một mớ tên đường xa lạ, dù trước khi hỏi bạn đã nói rõ bạn chỉ mới xuống sân bay.
 
-{% img /gallery/curse-of-knowledge/euclide.jpg '' '400' %}
+![](images/gallery/curse-of-knowledge/euclide.jpg)
 
 - Mascot đường phố: Nhiều trung tâm thương mại và shop hay thuê người mặc các bộ đồ nhân vật hoạt hình như chuột Mickey, mèo Ami thu hút khách hàng. Bạn vẫn thấy chú chuột Mickey đáng yêu cho đến khi bạn vô tình nhìn thấy người phía sau chú chuột đó mặc bộ đồ. Từ lúc đó hình ảnh xuất hiện trong đầu bạn là người đàn ông phía sau bộ đồ chứ không phải nhân vật hoạt hình dễ thương nữa.
 
-{% img /gallery/curse-of-knowledge/mascot.jpg '' '400' %}
+![](images/gallery/curse-of-knowledge/mascot.jpg)
 
 Một khi đã biết, bạn khó có thể hiểu việc không biết thế nào nữa. *Tri thức đã đặt một "lời nguyền" lên bạn.*
 

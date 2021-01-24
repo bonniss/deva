@@ -7,7 +7,7 @@ categories:
   - Lập trình
 tags:
   - javascript
-  - bestpractices
+  - best-practices
   - ethics
 ---
 

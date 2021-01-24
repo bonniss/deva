@@ -5,7 +5,7 @@ summary: duy trung
 categories:
   - Thư quán
 tags:
-  - toidich
+  - toi-dich
 ---
 Tròn 100 năm trước, một bể chứa 2,3 triệu gallon (tương đương 8706 m³ hay 8,7 tỷ lít) mật rỉ đường đột ngột vỡ tung và tàn phá nặng nề thành phố Boston Đông Bắc Hoa Kỳ. Các nhà khoa học hiện đại đã hiểu tại sao cơn sóng thần si-rô này lại chết chóc đến như vậy.
 <!--more-->

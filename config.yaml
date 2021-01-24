@@ -1,8 +1,9 @@
-baseURL: ""
+baseURL: "/"
 languageCode: "vi-vn"
 defaultContentLanguage: "vi"
 title: "Đen Đá Dev"
 theme: "anubis"
+paginate: 10
 enableRobotsTXT: true
 enableEmoji: true
 
@@ -19,6 +20,10 @@ menu:
   #   url: /categories/psychology/
   #   weight: 0
 
+# taxonomies:
+#   tag: "tags"
+#   category: "duy trung"
+
 params:
   author: "Duy Trung"
   email: "duytrung.tcu@gmail.com"
@@ -31,6 +36,8 @@ params:
   dateFormat: "02/01/2006"
   showCredit: false
   themeSwitcherPosition: "header"
+  hasAside: true
+  asideSticky: true
 
 markup:
   goldmark:

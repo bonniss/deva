@@ -1,7 +1,7 @@
 ---
 title: Lý giải sức tàn phá khủng khiếp của thảm họa "ngọt ngào" nhất lịch sử Boston
+slug: ly-giai-suc-tan-pha-khung-khiep-cua-tham-hoa-ngot-ngao-nhat-lich-su-boston
 date: 2019-08-05 23:44:41
-summary: duy trung
 categories:
   - Thư quán
 tags:

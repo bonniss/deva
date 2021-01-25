@@ -1,8 +1,9 @@
 ---
 title: Hết năm 2018, tôi không giỏi như mọi người nghĩ
+slug: het-nam-2018-toi-khong-gioi-nhu-moi-nguoi-nghi
 date: 2019-08-12 01:13:47
 categories:
-  - Lập trình
+  - Quan điểm
 tags:
   - toi-dich
   - dan-abramov

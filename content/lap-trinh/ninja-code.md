@@ -1,14 +1,15 @@
 ---
-title: Cẩm nang code "như một nhẫn giả"
+title: Bí kíp viết code "như một nhẫn giả"
+slug: bi-kip-viet-code-nhu-mot-nhan-gia
 date: 2019-08-26 22:32:08
 draft: false
 favorite: true
 categories:
-  - Lập trình
+  - Quan điểm
 tags:
   - javascript
   - best-practices
-  - ethics
+  - programming-jokes
 ---
 
 Khổng Tử nói: "Học mà không nghĩ thì phí công phí sức, nghĩ mà không học thì hiểm họa khôn lường".

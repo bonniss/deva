@@ -1,5 +1,6 @@
 ---
-title: Thiên kiến nhận thức • Thiên thần hay ác quỷ?
+title: "Thiên kiến nhận thức: Khi tù nhân và nhà tù là một?"
+slug: thien-kien-nhan-thuc-khi-tu-nhan-va-nha-tu-la-mot
 toc: true
 date: 2019-08-14 21:14:54
 summary: 'Lời hát trong "Hotel California" lại vang lên: "...We are all just prisoners here, of our own device..."'

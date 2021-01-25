@@ -21,8 +21,13 @@ menu:
   #   weight: 0
 
 # taxonomies:
-#   tag: "tags"
-#   category: "duy trung"
+# # Disable the default taxonomies
+#   tag: ""
+#   category: ""
+
+# permalinks:
+#   tag: "tag/:slug"
+#   category: "danh-muc/:slug"
 
 params:
   author: "Duy Trung"
@@ -30,7 +35,7 @@ params:
   avatar: "/images/me.png"
   description: ""
   readMore: false
-  mainSections: ["developer", "misc", "psychology"]
+  mainSections: ["lap-trinh", "tuy-hung", "tam-ly-hoc"]
   paginationSinglePost: true
   style: dark
   dateFormat: "02/01/2006"

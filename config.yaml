@@ -1,7 +1,7 @@
 baseURL: "/"
 languageCode: "vi-vn"
 defaultContentLanguage: "vi"
-title: "Đen Đá Dev"
+title: "Nâu Đá Dev"
 theme: "anubis"
 paginate: 10
 enableRobotsTXT: true
@@ -29,13 +29,19 @@ menu:
 #   tag: "tag/:slug"
 #   category: "danh-muc/:slug"
 
+minify:
+  minifyOutput: true
+
 params:
   author: "Duy Trung"
   email: "duytrung.tcu@gmail.com"
   avatar: "/images/me.png"
-  description: ""
+  siteLogo:
+    url: "/logo.png"
+    size: 56
+  description: "Chỉ là cuốn sổ ghi chép của Duy Trung về lập trình: Javascript, PHP, Python; và nhiều thứ hay ho nữa"
   readMore: false
-  mainSections: ["lap-trinh", "tuy-hung", "tam-ly-hoc"]
+  mainSections: ["blog", "about"]
   paginationSinglePost: true
   style: dark
   dateFormat: "02/01/2006"

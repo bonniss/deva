@@ -26,7 +26,8 @@ Một khi đã biết, bạn khó có thể hiểu việc không biết thế n�
 
 Năm 1990, Elizabeth Newton khi đó là một sinh viên của đại học Stanford, đã thực hiện một thí nghiệm như sau: chia những người tham gia làm 2 nhóm - nhóm gõ và nhóm nghe. Nhóm gõ chọn một bài hát phổ biến (như "Happy Birthday", "Mary Had a Little Lamb", "Twinkle Twinkle Litte Star") và dùng ngón tay gõ xuống mặt bàn theo giai điệu bài hát đã chọn. Nhóm nghe sẽ ngồi bên cạnh và đoán xem giai điệu đang gõ là bài hát nào.
 
-{% youtube 0wLAJ2DOo5o %}
+<!-- Twinkle Twinkle Litte Star -->
+{{<youtube yCjJyiqpAuU >}}
 
 Nhóm gõ tự tin rằng những người ở nhóm nghe sẽ không khó để đoán 50% số bài hát. Sự thật là xác suất đoán đúng bài hát của nhóm nghe chỉ là 2,5%, thấp hơn 20 lần. Kết quả này cho thấy giai điệu chạy trong đầu của người gõ khiến họ tin rằng người nghe cũng có cùng cảm giác như mình. Từ đó, ảnh hưởng đến cách gõ của họ mà đối với người nghe lại vô cùng rời rạc và không có chút đặc trưng nào để có thế đoán được bài hát.
 

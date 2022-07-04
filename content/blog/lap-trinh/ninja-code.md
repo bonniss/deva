@@ -5,7 +5,7 @@ date: 2019-08-26 22:32:08
 draft: false
 favorite: true
 categories:
-  - Quan điểm
+  - Lập trình
 tags:
   - javascript
   - best-practices

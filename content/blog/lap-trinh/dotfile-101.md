@@ -16,6 +16,21 @@ Phú ông cất nóc nhà mới cho vợ ba, dụ anh nông dân nếu xếp đ�
 
 <!--more-->
 
+
+```go {linenos=table,hl_lines=[8,"15-17"],linenostart=199}
+func GetTitleFunc(style string) func(s string) string {
+  switch strings.ToLower(style) {
+  case "go":
+    return strings.Title
+  case "chicago":
+    return transform.NewTitleConverter(transform.ChicagoStyle)
+  default:
+    return transform.NewTitleConverter(transform.APStyle)
+  }
+}
+```
+
+
 Nhiều chương trình, ứng dụng máy tính lưu cài đặt cấu hình dưới dạng plain text. Trong các hệ điều hành nền Unix như Linux hay MacOS, các file có ký tự đầu tiên trong tên là dấu chấm `.` (tiếng Anh là dot) sẽ bị ẩn. Nhân vật chính của chúng ta trong bài viết này có cả 2 đặc điểm trên: là file ẩn lưu cấu hình của các chương trình, ứng dụng trong máy tính, gọi là `dotfile`.
 
 ## Các dotfile phổ biến

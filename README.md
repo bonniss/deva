@@ -20,7 +20,9 @@ hugo server -D
 hugo -D
 ```
 
-## How to install new theme
+## FAQ
+
+### How to install new theme
 
 ```bash
 # clone as simple folder
@@ -30,3 +32,7 @@ git clone https://github.com/apvarun/digital-garden-hugo-theme.git
 # clone as a submodule
 git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden
 ```
+
+### How to change highlight.js style
+
+[Download styles here](https://github.com/highlightjs/highlight.js/tree/main/src/styles), and copy to `assets/css/extended`.

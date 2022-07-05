@@ -91,9 +91,8 @@ Không thể đọc lướt mà hiểu được code kiểu này. Và nếu ch�
 
 ## Từ đồng nghĩa khôn ngoan
 
-{% blockquote Khổng Tử %}
-Không gì khó bằng việc phải tìm một con mèo đen trong một căn phòng tối, nhất là khi không có con mèo nào cả.
-{% endblockquote %}
+> Không gì khó bằng việc phải tìm một con mèo đen trong một căn phòng tối, nhất là khi không có con mèo nào cả.</p>
+> — <cite>Khổng Tử</cite>
 
 Sự lặp lại đôi khi thật nhàm chán. Cuộc đời sẽ thi vị hơn biết bao khi ta sử dụng nhiều từ khác nhau để diễn tả cùng một sự vật. Thiên hạ sẽ trầm trồ trước sự sáng tạo của ta.
 

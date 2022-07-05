@@ -13,3 +13,7 @@ tags:
 ---
 
 [Docs](https://gohugo.io/content-management/syntax-highlighting/)
+
+{{< gist spf13 7896402 >}}
+
+{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}

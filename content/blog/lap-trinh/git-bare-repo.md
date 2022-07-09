@@ -22,7 +22,7 @@ Chưa rõ Github lưu trữ code như thế nào? Khởi đầu trần trụi t�
 
 Bare repo được tạo bởi command `git init --bare`. Bare repo không có working tree, cũng không có thư mục `.git`. Thay vào đó nó lưu trữ nội dung của thư mục `.git` trong repo thường, gồm lịch sử chỉnh sửa và metadata, trực tiếp tại thư mục gốc chứa repo. Nghĩa là đúng như tên gọi, dữ liệu quản lý phiên bản sẽ được "phơi bày trần trụi" trong bare repo.
 
-## Khi nào dùng bare repo
+## Khi nào dùng bare repo?
 
 Repo tạo bởi `git init` dùng để __làm việc__. Bạn có thể chỉnh sửa thoải mái working tree, và sau đó `git commit` để lưu lại các thay đổi. Trong đa số trường hợp, bạn sẽ dùng loại "repo làm việc" này, tại máy cá nhân (local machine).
 

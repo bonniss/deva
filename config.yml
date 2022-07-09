@@ -20,7 +20,7 @@ minify:
 
 languages:
     vi:
-        languageName: "English"
+        languageName: "Tiếng Việt"
         weight: 1
         taxonomies:
           category: categories
@@ -67,14 +67,14 @@ params:
     TocOpen: false
 
     comments: true
-    images: ["papermod-cover.png"]
+    images: ["caphe-phin.png"]
 
     homeInfoParams:
         Title: "Tí tách, tí tách"
         Content: >
             Ồ, đã ghé qua thì ngồi chơi, tán gẫu, ngắm cà phê nhỏ giọt với Trung nào.
 
-            - <img src="/favicon.png" width="75" class="mx-auto" style="margin: 2rem auto" />
+            - <img src="/caphe-phin.png" width="75" class="mx-auto my2" />
 
               Lốc xoáy, bọt trắng và đá lạnh
 

@@ -10,7 +10,7 @@ git submodule update --init --recursive
 git submodule update --remote
 
 # or download a single theme
-git submodule update --remote themes/digitalgarden
+git submodule update --init --remote themes/digitalgarden
 
 # start the server with `draft` enabled
 hugo server -D

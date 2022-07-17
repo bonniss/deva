@@ -2,7 +2,7 @@ baseURL: "https://nauda.dev"
 languageCode: "vi-vn"
 defaultContentLanguage: "vi"
 title: Nâu Đá Dev
-paginate: 5
+paginate: 10
 theme: papermod
 
 enableInlineShortcodes: true
@@ -92,9 +92,6 @@ params:
             {{% /md %}}
               </div>
             </div>
-
-
-
 
     socialIcons:
         - name: github
@@ -188,3 +185,20 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+
+imaging:
+  anchor: Smart
+  bgColor: '#ff0000'
+  hint: photo
+  quality: 75
+  resampleFilter: Box
+  exif:
+    disableDate: false
+    disableLatLong: false
+    excludeFields: ""
+    includeFields: ""
+
+module:
+  mounts:
+  - source: static
+    target: assets

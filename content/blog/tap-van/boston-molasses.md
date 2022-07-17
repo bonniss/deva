@@ -10,7 +10,7 @@ tags:
 Tròn 100 năm trước, một bể chứa 2,3 triệu gallon (tương đương 8706 m³ hay 8,7 tỷ lít) mật rỉ đường đột ngột vỡ tung và tàn phá nặng nề thành phố Boston Đông Bắc Hoa Kỳ. Các nhà khoa học hiện đại đã hiểu tại sao cơn sóng thần si-rô này lại chết chóc đến như vậy.
 <!--more-->
 
-![post cover](/images/gallery/boston-molasses/cover.jpg)
+{{< im "/images/gallery/boston-molasses/cover.jpg" "" 720 >}}
 
 > Bài này đã đăng trên trang [Thư quán Teddy](http://teddytapdich.blogspot.com/2017/04/), một trong những blog dang dở của mình. Bài dịch ra đời hồi 2017 trong lúc nông nhàn rảnh rỗi từ một bài báo trên [The Guardian](https://www.theguardian.com/science/2017/feb/25/study-reveals-why-so-many-met-a-sticky-end-in-bostons-great-molasses-flood).
 
@@ -26,7 +26,7 @@ Phát biểu tại hội nghị, Nicole Sharp, kỹ sư hàng không vũ trụ �
 
 Vũng si-rô loãng ra một cách chậm chạp, để lại các nạn nhân như những con muỗi vặt nằm trong đám hổ phách nâu màu cánh gián, nằm chờ chết không thể cô độc và lạnh lẽo hơn. Một người đàn ông bị mắc kẹt trong gạch đá của một trạm cứu hỏa vừa đổ sập, thậm chí đã buông xuôi khi không còn sức để gạt dịch mật khỏi mặt nữa.
 
-![đoàn tàu bị hư hỏng](/images/gallery/boston-molasses/molasses-train.jpg)
+{{< im "/images/gallery/boston-molasses/molasses-train.jpg" "Đoàn tàu bị hư hỏng" 720 >}}
 
 > Thật khủng khiếp cho ai đó giữa thời tiết giá lạnh, bị vắt sức từ từ, tuyệt vọng trong việc thoát ra khỏi đám dịch mật
 >
@@ -48,7 +48,7 @@ Sharp và một đội ngũ chuyên gia của đại học Harvard đã thực h
 
 Đợt sóng mật khổng lồ tuân theo các định luật vật lý của một hiện tượng được gọi là "dòng trọng lực" (gravity current), ở đó một luồng chất lỏng đặc hầu như chỉ lan ra theo phương ngang thành một dòng loãng hơn. "Dòng nham thạch như vậy, tuyết lở cũng như vậy, và những con gió đông lùa dưới khe cửa nhà bạn cũng chính là như vậy".
 
-![Việc cứu người từ đống đổ nát gặp nhiều khó khăn bởi dịch mật ngập ngang đầu gối](/images/gallery/boston-molasses/rescue-effort.jpg "Việc cứu người từ đống đổ nát gặp nhiều khó khăn bởi dịch mật ngập ngang đầu gối")
+{{< im "/images/gallery/boston-molasses/rescue-effort.jpg" "Việc cứu người từ đống đổ nát gặp nhiều khó khăn bởi dịch mật ngập ngang đầu gối" 720 >}}
 
 Nhóm nghiên cứu sử dụng một mô hình địa vật lý được phát triển bởi giáo sư Herbert Huppert của đại học Cambridge, người chuyên nghiên cứ về các dòng trọng lực đang hiện hữu như các luồng nham thạch và các tảng băng trôi ở Nam cực. Mô hình thí nghiệm giả thuyết rằng quá trình mật rỉ đường diễn ra theo ba giai đoạn chính.
 

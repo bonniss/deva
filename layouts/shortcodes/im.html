@@ -1,0 +1,39 @@
+<!--
+  Shortcode to insert image into .md files.
+  - Support image caption
+  - Support build-time image sizes
+  - Support image `config` options.
+  - Can be used with positional params, named params or both
+-->
+
+{{ $src := or (.Get "src") (.Get 0) }}
+{{ $alt := or (.Get "alt") (.Get 1) }}
+
+{{ $img := resources.Get ($src) }}
+
+{{ $width := or (.Get "width") (.Get 2) $img.Width }}
+{{ $height := or (.Get "height") (.Get 3) $img.Height }}
+
+{{
+  $size := printf "%vx%v"
+    (cond (eq $width $img.Width) "" $width)
+    (cond (eq $height $img.Height) "" $height)
+}}
+
+{{ with ne $size "x" }}
+  {{ $img = $img.Resize $size }}
+{{ end }}
+
+<figure class="my3 center">
+  <img style="max-width: 100%; height: auto; margin: 0 auto;"
+    src="{{ $img.RelPermalink }}"
+    {{ with $alt }} alt="{{$alt}}" {{ end }}
+    {{ with $width }} width="{{$width}}" {{ end }}
+    {{ with $height }} height="{{$height}}" {{ end }}
+  />
+  {{ with $alt }}
+  <figcaption style="font-weight: 400; font-style: italic;">
+    <small>{{ $alt }}</small>
+  </figcaption>
+  {{ end }}
+</figure>

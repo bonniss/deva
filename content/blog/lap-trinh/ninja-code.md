@@ -17,7 +17,7 @@ Khổng Tử nói: "Học mà không nghĩ thì phí công phí sức, nghĩ mà
 
 > Nhẫn Giả hay còn gọi là Ninja (忍者) hoặc Shinobi (忍び) - cách viết vắn tắt của shinobi no mono (忍の者). Trong nghĩa gốc Hán, chữ 忍 có nghĩa là "nhẫn" (nhẫn nhịn, kiên nhẫn), trong tiếng Nhật nó lại có nghĩa là "ẩn" (ẩn nấp, tàng ẩn). Chữ 者 nghĩa là "giả" (người).
 
-![ninja](/images/gallery/ninja-code/ninja.jpg)
+{{< im "/images/gallery/ninja-code/ninja.jpg" "" 500 >}}
 
 Từ ngàn xưa, các ninja lập trình đã dùng những chiêu thức sắp kể sau đây để tôi luyện trí não cho các maintainer.
 

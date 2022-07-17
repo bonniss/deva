@@ -82,9 +82,12 @@ Người viết muốn giữ văn bản và tài nguyên của một bài viết
 - `assets` sẽ chứa hình ảnh của bài viết, hay chung hơn, các tài nguyên cần được xử lý ở build time.
 - `static` sẽ chứa các hình ảnh như favicon hoặc các định dạng khác như pdf, hay chung hơn, các tài nguyên nguyên bản, không cần xử lý gì thêm.
 
-Vậy, làm
+Vậy làm sao để insert hình ảnh trong `assets` vào markdown?
+
+Như đã nói, hình ảnh trong `assets` chỉ access được trong template, ta sẽ tạo một shortcode để đọc hình ảnh đã xử lý và nhúng shortcode vào markdown.
+
+```txt
+markdown --- shortcode --- images in `assets`
+```
 
 ## Demo
-
-{{< improceg caphe-phin Resize "300x" />}}
-{{< improceg caphe-phin Crop "400x400 center" />}}

@@ -190,15 +190,10 @@ imaging:
   anchor: Smart
   bgColor: '#ff0000'
   hint: photo
-  quality: 75
+  quality: 80
   resampleFilter: Box
   exif:
     disableDate: false
     disableLatLong: false
     excludeFields: ""
     includeFields: ""
-
-module:
-  mounts:
-  - source: static
-    target: assets

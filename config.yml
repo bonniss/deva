@@ -147,7 +147,7 @@ markup:
         guessSyntax: true
         # hl_Lines: ""
         # lineNoStart:
-        lineNos: true
+        lineNos: false
         # lineNumbersInTable: true
         tabWidth: 4
         style: dracula

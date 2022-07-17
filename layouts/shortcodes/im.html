@@ -8,8 +8,8 @@
 
 {{ $src := or (.Get "src") (.Get 0) }}
 {{ $alt := or (.Get "alt") (.Get 1) }}
-{{ $width := or (.Get "width") (.Get 2) $img.Width }}
-{{ $height := or (.Get "height") (.Get 3) $img.Height }}
+{{ $width := or (.Get "width") (.Get 2) }}
+{{ $height := or (.Get "height") (.Get 3) }}
 {{ $img := resources.Get ($src) }}
 
 {{ with $img }}

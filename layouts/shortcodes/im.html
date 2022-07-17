@@ -8,32 +8,35 @@
 
 {{ $src := or (.Get "src") (.Get 0) }}
 {{ $alt := or (.Get "alt") (.Get 1) }}
-
-{{ $img := resources.Get ($src) }}
-
 {{ $width := or (.Get "width") (.Get 2) $img.Width }}
 {{ $height := or (.Get "height") (.Get 3) $img.Height }}
+{{ $img := resources.Get ($src) }}
 
-{{
-  $size := printf "%vx%v"
-    (cond (eq $width $img.Width) "" $width)
-    (cond (eq $height $img.Height) "" $height)
-}}
+{{ with $img }}
+  {{ $width = or $width $img.Width }}
+  {{ $height = or $height $img.Height }}
 
-{{ with ne $size "x" }}
-  {{ $img = $img.Resize $size }}
-{{ end }}
+  {{
+    $size := printf "%vx%v"
+      (cond (eq $width $img.Width) "" $width)
+      (cond (eq $height $img.Height) "" $height)
+  }}
 
-<figure class="my3 center">
-  <img style="max-width: 100%; height: auto; margin: 0 auto;"
-    src="{{ $img.RelPermalink }}"
-    {{ with $alt }} alt="{{$alt}}" {{ end }}
-    {{ with $width }} width="{{$width}}" {{ end }}
-    {{ with $height }} height="{{$height}}" {{ end }}
-  />
-  {{ with $alt }}
-  <figcaption style="font-weight: 400; font-style: italic;">
-    <small>{{ $alt }}</small>
-  </figcaption>
+  {{ with ne $size "x" }}
+    {{ $img = $img.Resize $size }}
   {{ end }}
-</figure>
+
+  <figure class="my3 center">
+    <img style="max-width: 100%; height: auto; margin: 0 auto;"
+      src="{{ $img.RelPermalink }}"
+      {{ with $alt }} alt="{{$alt}}" {{ end }}
+      {{ with $width }} width="{{$width}}" {{ end }}
+      {{ with $height }} height="{{$height}}" {{ end }}
+    />
+    {{ with $alt }}
+    <figcaption style="font-weight: 400; font-style: italic;">
+      <small>{{ $alt }}</small>
+    </figcaption>
+    {{ end }}
+  </figure>
+{{ end }}

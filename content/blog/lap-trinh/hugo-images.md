@@ -25,6 +25,9 @@ Resources:
 - [Diagram](https://gohugo.io/content-management/diagrams/)
 - [GoAT examples](https://github.com/bep/goat)
 - [ASCII Diagrams](https://arthursonzogni.com/Diagon/#Sequence)
+- [Medium-like image loading](https://discourse.gohugo.io/t/medium-like-lazy-loading-of-images/16016)
+- [Lozad - lazyload images, iframe (~ 1Kb)](https://github.com/ApoorvSaxena/lozad.js)
+- [Google web dev - lazy load](https://web.dev/fast/#lazy-load-images-and-video)
 
 ## `assets` vs `static`
 

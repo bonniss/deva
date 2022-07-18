@@ -37,7 +37,7 @@ Dễ thấy là các tác vụ trong bare repo giống hệt với các tác v�
 
 Ta có thể dùng bare repo làm remote repo để tự host code như Github. Quy ước tên thư mục chứa bare repo phải kết thúc bằng `.git`, ví dụ: `bootstrap.git`, `react.git`, `next.js.git`.
 
-![bare repo suffix](/images/gallery/git-bare-repo/suffix.jpg#center)
+{{< im "/images/gallery/git-bare-repo/suffix.jpg" "" 400>}}
 
 Các máy sử dụng trong các bước dưới đây có thể là máy thật hoặc máy ảo, yêu cầu phải nằm chung một mạng.
 

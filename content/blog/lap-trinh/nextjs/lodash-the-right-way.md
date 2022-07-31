@@ -60,7 +60,7 @@ ANALYZE=false
 
 ## Thử `lodash`
 
-- Tạo và checkout branch `with-lodash`,
+- Tạo và checkout branch `with-lodash`
 
 ```bash
 git checkout -b with-lodash
@@ -90,7 +90,7 @@ module.exports = withPlugins([
 ], nextConfig)
 ```
 
-- Dựng trang chủ tại `pages/index.js`:
+- Dựng trang chủ tại `pages/index.js`
 
 ```jsx
 import { groupBy } from 'lodash'
@@ -159,7 +159,7 @@ Ta sử dụng hàm `groupBy` của `lodash` để phân nhóm các anh hùng Ma
 
 - Build project
 
-```
+```bash
 npm run build
 ```
 
@@ -191,7 +191,7 @@ git checkout -b with-lodash-es
 npm i next-transpile-modules
 ```
 
-- Dựng trang chủ tại `pages/index.js` giống mục trước, chỉ thay import:
+- Dựng trang chủ tại `pages/index.js` giống mục trước, chỉ thay import
 
 ```jsx {hl_lines=[1]}
 import { groupBy } from 'lodash-es'
@@ -222,7 +222,7 @@ module.exports = withPlugins([
 ], nextConfig)
 ```
 
-- Build project:
+- Build project
 
 ```bash
 npm run build
@@ -230,7 +230,7 @@ npm run build
 
 ## So sánh
 
-Output build với `lodash`
+Output build với `lodash`:
 
 ```ini {hl_lines=[2]}
 Page                                       Size     First Load JS
@@ -249,7 +249,7 @@ Page                                       Size     First Load JS
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 ```
 
-Output build với `lodash-es`, có thể thấy dung lượng trang chủ giảm 5 lần (30k vs 6k), lượng JS tổng cộng tải xuống giảm 20% (107k vs 84k).
+Output build với `lodash-es`, có thể thấy dung lượng trang chủ giảm 5 lần (30k vs 6k), lượng JS tổng cộng tải xuống giảm 20% (107k vs 84k):
 
 ```ini {hl_lines=[2]}
 Page                                       Size     First Load JS

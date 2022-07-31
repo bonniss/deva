@@ -1,0 +1,4 @@
+.post-content pre code {
+  overflow-x: unset;
+  background: unset!important;
+}

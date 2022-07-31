@@ -14,7 +14,7 @@ tags:
 
 Code hay dở chưa biết, nhìn phải đẹp đã.
 
-<!-- more -->
+<!--more-->
 
 > [Hugo](https://gohugo.io/) là một bộ sinh trang web tĩnh (SSG - Static Site Generator) mã nguồn mở. Được xây dựng trên ngôn ngữ Go, Hugo nổi tiếng bởi tốc độ build siêu nhanh (< 1ms mỗi trang) và các tính năng hỗ trợ xây dựng nội dung mạnh mẽ. Từ blog cá nhân, trang quảng bá, trang tài liệu đến trang thương mại điện tử, Hugo đáp ứng được đa dạng nhu cầu về nội dung và lĩnh vực. Bài viết sau đây dành cho người mới bắt đầu sử dụng Hugo.
 

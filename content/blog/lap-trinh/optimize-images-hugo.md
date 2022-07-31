@@ -29,9 +29,9 @@ Do đó, tối ưu hình ảnh trên website chủ yếu nhắm đến việc gi
 
 ## Trước khi bắt đầu
 
-Trong Hugo, thư mục `static` có thể được sử dụng để lưu trữ hình ảnh. Tuy nhiên, các file trong `static` sẽ được "bê" y nguyên qua thư mục output ở build time, đồng nghĩa với việc hình ảnh bỏ vào đây sẽ không được xử lý gì cả.
+Trong Hugo, thư mục `static` có thể được sử dụng để lưu trữ hình ảnh. Tuy nhiên, các file trong `static` sẽ được "bê" y nguyên không xử lý gì qua thư mục output ở build time.
 
-Hugo sẽ xử lý ảnh ở build time. Do vậy, các output với hình ảnh cần được viết dưới dạng Go template, không thể gọi trực tiếp trong Markdown. Để Hugo có thể xử lý ảnh, bạn cần tổ chức hình ảnh dưới 1 trong những dạng sau:
+Để Hugo có thể xử lý ảnh, bạn cần tổ chức hình ảnh dưới 1 trong những dạng sau:
 
 1. Tài nguyên trang (Page resources)
 2. Tài nguyên toàn cục (Global resources)
@@ -46,7 +46,7 @@ content/
         └── sunset.jpg    <-- page resource
 ```
 
-Để gọi hình ảnh tài nguyên trang trong template:
+Mô tả xử lý hình ảnh chỉ viết được trong Go template, không phải Markdown. Để gọi hình ảnh tài nguyên trang trong template:
 
 ```golang
 {{ $image := resources.Get "images/sunset.jpg" }}
@@ -78,7 +78,7 @@ Khi hình ảnh nằm ở máy chủ khác:
 
 ## Tự động xử lý ảnh với Hugo
 
-Hugo hỗ trợ sẵn [các tác vụ chỉnh sửa ảnh cơ bản](https://gohugo.io/content-management/image-processing/#image-processing-methods) ngay trên object ảnh được đưa vào template. Sử dụng khả năng sẵn có của Hugo, ta đặt ra các yêu cầu tự động xử lý như sau:
+Hugo hỗ trợ sẵn [các tác vụ chỉnh sửa ảnh cơ bản](https://gohugo.io/content-management/image-processing/#image-processing-methods) ngay trên object ảnh được đưa vào template. Sử dụng khả năng sẵn có này, ta đặt ra các yêu cầu tự động xử lý như sau:
 
 1. Giảm chất lượng với hình ảnh trong trang xuống 80%
 2. Chèn được hình ảnh khi viết Markdown
@@ -105,7 +105,7 @@ imaging:
 
 ### Khai báo xử lý ảnh trong Markdown
 
-Do các phương thức xử lý ảnh chỉ gọi được trong Go template, ta cần viết 1 shortcode để chèn được ảnh vào Markdown. Short code dưới đây có cú pháp sử dụng gần giống với thẻ `img` trong HTML.
+Do các phương thức xử lý ảnh chỉ gọi được trong Go template, ta cần viết 1 shortcode để chèn được ảnh vào Markdown. Shortcode dưới đây có cú pháp sử dụng gần giống với thẻ `img` trong HTML.
 
 ```html
 <!-- layouts/shortcodes/im.html -->
@@ -153,7 +153,7 @@ Do các phương thức xử lý ảnh chỉ gọi được trong Go template, t
 {{ end }}
 ```
 
-Phiên bản shortcode này cho phép:
+Phiên bản shortcode trên cho phép:
 
 - Tự động căn giữa hình ảnh.
 - Tự động hiện title khi truyền vào `alt`.

@@ -2,3 +2,7 @@
   overflow-x: unset;
   background: unset!important;
 }
+
+.post-content pre code[data-lang] {
+  overflow-x: auto;
+}

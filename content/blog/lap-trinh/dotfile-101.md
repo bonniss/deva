@@ -16,7 +16,6 @@ Phú ông cất nóc nhà mới cho vợ ba, dụ anh nông dân nếu xếp đ�
 
 <!--more-->
 
-
 ```go {linenos=table,hl_lines=[8,"15-17"],linenostart=199}
 func GetTitleFunc(style string) func(s string) string {
   switch strings.ToLower(style) {

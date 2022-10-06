@@ -154,7 +154,7 @@ func cow(num int, mootube chan Moo) {
 }
 ```
 
-## Tham khảo:
+## Tham khảo
 
 - [Configure markup - Highlight - Hugo docs](https://gohugo.io/getting-started/configuration-markup#highlight)
 - [Syntax highlighting - Hugo docs](https://gohugo.io/content-management/syntax-highlighting/)

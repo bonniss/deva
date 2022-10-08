@@ -20,5 +20,3 @@ Resources:
 - [caniemail.com](https://www.caniemail.com/)
 
 ## Framework và ngôn ngữ lập trình Email template
-
-

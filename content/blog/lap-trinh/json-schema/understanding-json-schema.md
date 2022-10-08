@@ -139,7 +139,7 @@ Soi vào bản mô tả này sẽ đánh giá được:
 
 Xác minh theo schema này sẽ "đánh trượt" dữ liệu theo thiết kế số 1 ngay khi không nhìn thấy trường nào tên là `first_name` cả!
 
-Điểm thú vị ở JSON Schema nằm ở chỗ ta đang __dùng chính JSON để mô tả lại cấu trúc của một dữ liệu JSON khác__. Do đó, JSON Schema không thể viết tùy tiện, mà cũng phải tuân thủ theo các ràng buộc được mô tả chi tiết trong [đặc tả kỹ thuật](https://github.com/json-schema-org/json-schema-spec). Các công cụ xác minh dữ liệu (data validation) theo JSON Schema cần thực hiện ở 2 mức:
+Điểm thú vị ở JSON Schema nằm ở chỗ ta đang __dùng chính JSON để mô tả lại cấu trúc của một dữ liệu JSON khác__. Do đó, JSON Schema không thể viết tùy tiện, mà phải tuân thủ theo các ràng buộc được mô tả chi tiết trong [đặc tả kỹ thuật](https://github.com/json-schema-org/json-schema-spec). Các công cụ xác minh dữ liệu (data validation) theo JSON Schema cần thực hiện ở 2 mức:
 
 1. [Xác minh schema](https://www.jsonschemavalidator.net/)
 2. Xác minh dữ liệu theo schema

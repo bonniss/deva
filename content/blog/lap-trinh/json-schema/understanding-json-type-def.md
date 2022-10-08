@@ -224,5 +224,5 @@ Muốn biết chi tiết hơn? Bắt đầu ngay [học JTD trong 5 phút](https
 
 ## Tham khảo
 
-- [Schemas for JSON optimized for code generation](https://jsontypedef.com/)
-- [Choosing schema language](https://ajv.js.org/guide/schema-language.html#comparison)
+- [[Official website] Schemas for JSON optimized for code generation](https://jsontypedef.com/)
+- [[ajv] Choosing schema language](https://ajv.js.org/guide/schema-language.html#comparison)

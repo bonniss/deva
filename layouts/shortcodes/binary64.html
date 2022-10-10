@@ -1,0 +1,15 @@
+{{ $sign := or (.Get "s") (.Get 0) }}
+{{ $exp := or (.Get "e") (.Get 1) }}
+{{ $fraction := or (.Get "f") (.Get 2) }}
+
+<p style="font-size: 18px;">
+  <span class="cl__sign">
+  ${{ $sign }}$
+  </span>
+  <span class="cl__exponent">
+  ${{ $exp }}$
+  </span>
+  <span class="cl__fraction">
+  ${{ $fraction }}$
+  </span>
+</p>

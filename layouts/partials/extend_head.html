@@ -37,3 +37,17 @@
   });
 </script>
 {{ end }}
+
+<!--
+Includes libs conditionally
+Supports:
+- petite-vue
+- alpine-js
+- hyperapp
+- reveal.js
+...
+-->
+{{ if in .Params.libs "petite-vue" }}
+<h1>Duy Trung</h1>
+<script src="https://unpkg.com/petite-vue@0.4.1/dist/petite-vue.iife.js" defer init></script>
+{{ end }}

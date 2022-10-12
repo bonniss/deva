@@ -9,6 +9,7 @@ tags:
   - floating-point
   - ieee-754
   - arithmetic
+slug: js-number-ieee754
 ---
 
 0.1 + 0.2 !== 0.3 (╯ ͡• ͜ʖ ͡•)╯┻━┻
@@ -27,92 +28,7 @@ Chúng ta không có sự đa dạng sinh học như vậy trong Javascript. JS 
 
 ### Tổ chức lưu trữ
 
-<style>
-  #i3e-754__double-example {
-    --width-unit: 10px;
-    --cl-sign: var(--tw3-yellow-500);
-    --cl-exponent: var(--tw3-pink-500);
-    --cl-fraction: var(--tw3-teal-500);
-  }
-  #i3e-754__double-example > * {
-    position: relative;
-    display: inline-flex;
-    height: 20px;
-  }
-  #i3e-754__double-example .com__lbl {
-    position: absolute;
-    font-size: 12px;
-    min-width: 1rem;
-    bottom: 110%;
-  }
-  #i3e-754__double-example .lbl__bottom {
-    top: 100%;
-  }
-  #i3e-754__double-example .lbl__center {
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  #i3e-754__double-example .lbl__left {
-    right: calc(100% + 0px);
-  }
-  #i3e-754__double-example .lbl__left-inset {
-    left: 0;
-  }
-  #i3e-754__double-example .lbl__right {
-    left: calc(100% + 0px);
-  }
-  #i3e-754__double-example .lbl__right-inset {
-    right: 0%;
-  }
-  #i3e-754__double-example > .com__sign {
-    width: var(--width-unit);
-    background: var(--cl-sign);
-  }
-  #i3e-754__double-example > .com__exponent {
-    width: calc(var(--width-unit) * 11);
-    background: var(--cl-exponent);
-  }
-  #i3e-754__double-example > .com__fraction {
-    width: calc(var(--width-unit) * 52);
-    background: var(--cl-fraction);
-  }
-  .bg__sign {
-    background: var(--tw3-yellow-500);
-  }
-  .bg__exponent {
-    background: var(--tw3-pink-500);
-  }
-  .bg__fraction {
-    background: var(--tw3-teal-500);
-  }
-  .cl__sign {
-    color: var(--tw3-yellow-600);
-  }
-  .cl__exponent {
-    color: var(--tw3-pink-600);
-  }
-  .cl__fraction {
-    color: var(--tw3-teal-600);
-  }
-</style>
-
-<div id="i3e-754__double-example" class="center my4">
-<div class="com__sign">
-  <span class="com__lbl lbl__left">63</span>
-  <span class="com__lbl lbl__bottom lbl__left cl__sign" style="width: 2.25rem">Sign (1 bit)</span>
-</div>
-<div class="com__exponent">
-  <span class="com__lbl lbl__left-inset">62</span>
-  <span class="com__lbl lbl__right-inset">52</span>
-  <span class="com__lbl lbl__center cl__exponent">Exponent (11 bit)</span>
-</div>
-<div class="com__fraction">
-  <span class="com__lbl lbl__left-inset">51</span>
-  <span class="com__lbl lbl__right">0</span>
-  <span class="com__lbl lbl__center cl__fraction">Fraction (52 bit)</span>
-</div>
-</div>
+{{<blog/ieee754/gp_binary64>}}
 
 Kiểu số có độ dài 64 bit được chia làm 3 phần, theo minh hoạ trên từ trái qua phải (chiều trọng số bit tăng dần):
 
@@ -217,6 +133,31 @@ Do vậy biểu diễn `binary64` của số 1 như sau:
   e="01111111111"
   f="0000000000000000000000000000000000000000000000000000"
 >}}
+
+JS không có sẵn 1 hàm nào để chuyển đổi một số thành biểu diễn IEEE 754 tương ứng. Ta có thể xây dựng một hàm như sau [2]:
+
+```js
+function to64bitFloat(number) {
+  var i,
+    result = '';
+  var dv = new DataView(new ArrayBuffer(8));
+
+  dv.setFloat64(0, number, false);
+
+  for (i = 0; i < 8; i++) {
+    var bits = dv.getUint8(i).toString(2);
+    if (bits.length < 8) {
+      bits = new Array(8 - bits.length).fill('0').join('') + bits;
+    }
+    result += bits;
+  }
+  return result;
+}
+```
+
+Dưới đây là sân chơi sử dụng hàm trên để chuyển đổi số bất kỳ nhập vào `input`:
+
+{{<blog/ieee754/playground>}}
 
 ### Tập đếm
 

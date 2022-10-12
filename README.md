@@ -36,3 +36,14 @@ git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git theme
 ### How to change highlight.js style
 
 [Download styles here](https://github.com/highlightjs/highlight.js/tree/main/src/styles), and copy to `assets/css/extended`.
+
+### Ideas
+
+- Dùng biểu thức toán học trong Hugo: Katex và Papermod
+- Dùng petite-vue và alpine.js trong Hugo: xung đột templating delimiter
+- Tích hợp codemirror
+- Learn golang
+  - [Official docs]()
+  - https://github.com/SimonWaldherr/golang-examples
+  - https://github.com/Alikhll/golang-developer-roadmap
+  - https://www.youtube.com/watch?v=1MXIGYrMk80

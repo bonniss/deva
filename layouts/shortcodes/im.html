@@ -29,14 +29,14 @@
   <figure class="my3 center">
     <img style="max-width: 100%; height: auto; margin: 0 auto;"
       src="{{ $img.RelPermalink }}"
-      {{ with $alt }} alt="{{$alt}}" {{ end }}
-      {{ with $width }} width="{{$width}}" {{ end }}
-      {{ with $height }} height="{{$height}}" {{ end }}
+      {{ with $alt }} alt="{{.}}" {{ end }}
+      {{ with $width }} width="{{.}}" {{ end }}
+      {{ with $height }} height="{{.}}" {{ end }}
     />
     {{ with $alt }}
-    <figcaption style="font-weight: 400; font-style: italic;">
-      <small>{{ $alt }}</small>
-    </figcaption>
+      <figcaption style="font-weight: 400; font-style: italic;">
+        <small>{{.}}</small>
+      </figcaption>
     {{ end }}
   </figure>
 {{ end }}

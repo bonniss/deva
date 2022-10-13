@@ -159,7 +159,7 @@ Dưới đây là sân chơi sử dụng hàm trên để chuyển đổi số b
 
 {{<blog/ieee754/playground>}}
 
-### Tập đếm
+### Xoè bàn tay
 
 Bạn có thể đếm đến vô cùng trong JS không?
 
@@ -280,7 +280,35 @@ $10.0110011001100110011001100110011001100110011001100111 × 2^{-3} = 1.001100110
 
 <!-- Bổ sung thêm về EPSILON, hàm trả về biểu diễn I3E 754, terminal -->
 
+Bài học rút ra là gì? __Để giảm thiểu những nhược điểm của số học dấu chấm động, đừng bao giờ so sánh trực tiếp (`==` hay `===` trong JS) hai số thập phân với nhau__, mà trước hết hãy làm tròn hai số với một độ chính xác định trước rồi mới so sánh.
+
+Hàm sau đây làm tròn hai số về `precision` chữ số sau dấu chấm, rồi mới so sánh.
+
+```js
+function compareFractionPrecision(val1, val2, precision = 10) {
+  return val1.toFixed(precision) === val2.toFixed(precision);
+}
+```
+
+```js
+compareFractionPrecision(0.1 + 0.2, 0.3);       // true
+compareFractionPrecision(0.1 + 0.2, 0.3, 20);   // false
+```
+
+Hoặc, hai só được xem là bằng nhau nếu độ sai lệch giữa chúng nhỏ hơn một giá trị dung sai nào đó. Hàm sau đây mặc định sử dụng dung sai tiêu chuẩn với `binary64` là `Number.EPSILON` == $2^{-52}$.
+
+```js
+function compareUsingEpsilon(val1, val2, epsilon = Number.EPSILON) {
+  return Math.abs(val1 - val2) < epsilon;
+}
+```
+
+```js
+compareUsingEpsilon(0.1 + 0.2, 0.3);                        // true
+compareUsingEpsilon(0.1 + 0.2, 0.3, Number.EPSILON / 10);   // false
+```
+
 ## Tham khảo
 
-- [2ality - Number encoding](https://2ality.com/2012/04/number-encoding.html)
-- [indepth.dev - JavaScript’s Number type](https://indepth.dev/posts/1139/here-is-what-you-need-to-know-about-javascripts-number-type)
+1. [2ality - Number encoding](https://2ality.com/2012/04/number-encoding.html)
+2. [indepth.dev - JavaScript’s Number type](https://indepth.dev/posts/1139/here-is-what-you-need-to-know-about-javascripts-number-type)

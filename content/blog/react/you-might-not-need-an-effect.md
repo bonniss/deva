@@ -9,13 +9,14 @@ tags:
   - javascript
   - reactjs
   - new-reactjs-docs
+  - useEffect
 ---
 
-Cẩm nang `useEffect` đúng cách.
+Hiệu ứng hay hệ quả có thể đến sau hoặc không, nhưng nguyên nhân thì chắc chắn đến trước.
 
 <!--more-->
 
-Effect có vai trò như một cửa thoát hiểm trong mô hình của React. Chúng cho phép bạn "bước ra ngoài" React và đồng bộ các component với các hệ thống bên ngoài như từ các thư viện bên thứ ba, từ giao tiếp với mạng hay DOM. Nếu component không kết nối với hệ thống ngoại lai nào khác, _bạn không nên sử dụng Effect_. Loại bỏ các Effect không cần thiết giúp code dễ theo dõi logic, chạy nhanh và ít lỗi hơn.
+Effect có vai trò như một cửa thoát hiểm trong mô hình của React. Chúng cho phép bạn "bước ra ngoài" React và đồng bộ các component với các hệ thống bên ngoài như giao tiếp các thư viện bên thứ ba, với mạng hay với DOM. Nếu component không kết nối với hệ thống ngoại lai nào khác, _bạn không nên sử dụng Effect_. Loại bỏ các Effect không cần thiết giúp code dễ theo dõi logic, chạy nhanh và ít lỗi hơn.
 
 ---
 

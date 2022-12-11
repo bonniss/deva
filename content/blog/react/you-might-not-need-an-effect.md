@@ -1,6 +1,6 @@
 ---
 title: Có thể bạn không cần đến Effect
-description: Cẩm nang `useEffect` đúng cách
+description: Cẩm nang `useEffect` đúng cách trong React
 draft: false
 date: 2022-08-15 22:32:08
 categories:
@@ -752,7 +752,7 @@ Reactjs đang viết lại trang tài liệu chính thức. Một vài điểm �
 
 * Tất cả diễn giải __sử dụng Hook__ thay cho class.
 * Tăng graphic trực quan và ví dụ tương tác.
-* Có câu hỏi (kèm lời giải!) cho để kiểm tra mức độ hiểu bài của độc giả.
+* Có câu hỏi (kèm lời giải!) để kiểm tra mức độ hiểu bài của độc giả.
 
 Ở thời điểm năm 2022, [bản beta tại đây](https://beta.reactjs.org/).
 

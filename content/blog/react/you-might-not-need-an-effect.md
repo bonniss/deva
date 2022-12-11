@@ -501,7 +501,6 @@ function Toggle({ onChange }) {
 
   function updateToggle(nextIsOn) {
     // ✅ Tốt: chạy mọi cập nhật ngay trong event khiến state thay đổi
-    // ✅ Good: Perform all updates during the event t
     setIsOn(nextIsOn);
     onChange(nextIsOn);
   }

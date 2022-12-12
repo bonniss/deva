@@ -9,12 +9,13 @@ tags:
   - javascript
   - reactjs
   - new-reactjs-docs
+  - reactjs-basic
   - useState
 ---
 
 Dalai Lama trong thế giới của component nói: "We don't grow, we change".
 
-<!-- more -->
+<!--more-->
 
 `useState` là một Hook giúp bạn thêm biến state vào một component trong React.
 

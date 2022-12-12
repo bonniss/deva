@@ -753,6 +753,6 @@ Reactjs đang viết lại trang tài liệu chính thức. Một vài điểm �
 * Tăng graphic trực quan và ví dụ tương tác.
 * Có câu hỏi (kèm lời giải!) để kiểm tra mức độ hiểu bài của độc giả.
 
-Ở thời điểm năm 2022, [bản beta tại đây](https://beta.reactjs.org/).
+Ở thời điểm năm 2022, [bản beta của tài liệu mới tại đây](https://beta.reactjs.org/).
 
 Bài viết này dựa phần lớn trên bản gốc [You Might Not Need an Effect](https://beta.reactjs.org/learn/you-might-not-need-an-effect).

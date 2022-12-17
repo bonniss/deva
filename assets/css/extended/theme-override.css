@@ -2,7 +2,7 @@
 
 .post-content pre code {
   overflow-x: unset;
-  background: unset!important;
+  background: unset !important;
 }
 
 .post-content pre code[data-lang] {
@@ -11,4 +11,9 @@
 
 .post-content input {
   color: var(--content);
+}
+
+video {
+  width: 100%;
+  height: auto;
 }

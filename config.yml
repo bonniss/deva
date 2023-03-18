@@ -72,30 +72,30 @@ params:
   images: ["logo_with_text.png"]
 
   homeInfoParams:
-    Title: "Tí tách, tí tách"
+    Title: "☕ Tí tách, tí tách"
     Content: >
 
       Một cuốn sổ để tự nhắc mình phải ghi chép mỗi khi uống nâu đá.
-
-      "Cho anh ly bạc xỉu!"
-
-      <div class="flex flex-wrap items-center my3">
-        <div class="col-12 md-col-6 md-col-6 py1">
-          <img src="/caphe-phin.png" width="96" class="mx-auto" />
-        </div>
-        <div class="col-12 md-col-6 md-col-6 right-align py1">
-      <!-- Align is important here, must place at same align with the top level html tag -->
       {{% md %}}
-        Lốc xoáy, bọt trắng và đá lạnh
+      > _Cho anh ly bạc xỉu size vừa nhé!_
+      {{% md %}}
+  # <div class="flex flex-wrap items-center my3">
+  #   <div class="col-12 md-col-6 md-col-6 py1">
+  #     <img src="/caphe-phin.png" width="96" class="mx-auto" />
+  #   </div>
+  #   <div class="col-12 md-col-6 md-col-6 right-align py1">
+  # <!-- Align is important here, must place at same align with the top level html tag -->
+  # {{% md %}}
+  #   Lốc xoáy, bọt trắng và đá lạnh
 
-        Cà phê, bột bã, sữa ngọt sánh thơm
+  #   Cà phê, bột bã, sữa ngọt sánh thơm
 
-        Đời, đắng, chua, ngọt, chát
+  #   Đời, đắng, chua, ngọt, chát
 
-        Để quên, nhớ, để tận hưởng, nhâm nhi
-      {{% /md %}}
-        </div>
-      </div>
+  #   Để quên, nhớ, để tận hưởng, nhâm nhi
+  # {{% /md %}}
+  #   </div>
+  # </div>
 
   socialIcons:
     - name: github

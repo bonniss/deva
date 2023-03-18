@@ -1,4 +1,10 @@
+.dark {
+  --hyperlink: #5FD7CC;
+}
+
 :root {
+  --hyperlink: #bf3ccd;
+
   --tw3-slate-50: #f8fafc;
   --tw3-slate-100: #f1f5f9;
   --tw3-slate-200: #e2e8f0;

@@ -1,5 +1,36 @@
 @import './vars.css';
 
+/* Bỏ margin dọc ở phần welcome trên homepage */
+article.first-entry {
+  min-height: auto;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Links */
+
+.post-content a {
+  color: var(--hyperlink);
+}
+
+/* List item lifting effect */
+.post-entry {
+  transition: all 175ms ease-in;
+}
+
+.post-entry:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; /* box-shadow: var(--primary) 0px 5px 15px; */
+  transform: translateY(-2px);
+}
+
+/* Sparser code blocks */
+.post-content .highlight pre {
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+}
+
 .post-content pre code {
   overflow-x: unset;
   background: unset !important;

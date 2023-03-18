@@ -5,11 +5,17 @@ draft: false
 categories:
   - Lập trình
 tags:
+  - software-engineering
   - software-manangement
   - semver
   - semantic-versioning
   - calver
   - npm
+cover:
+  image: "https://source.unsplash.com/iIV0PUqhs00"
+  alt: "Prince Edward Viaduct, Toronto, Canada"
+  caption: "Photo by Warren Wong on Unplash"
+
 ---
 
 Làm sao để họ biết tôi đã thay đổi rất nhiều, nhất là khi tên tôi vẫn vậy?

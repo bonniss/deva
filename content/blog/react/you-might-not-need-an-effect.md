@@ -3,8 +3,13 @@ title: Có thể bạn không cần đến Effect
 description: Cẩm nang `useEffect` đúng cách trong React
 draft: false
 date: 2022-08-15 22:32:08
+cover:
+  image: "https://source.unsplash.com/wc3jFFQxo8k"
+  alt: "Adelaide SA, Australia"
+  caption: "Photo by Nadir sYzYgY on Unplash"
 categories:
   - Lập trình
+  - React
 tags:
   - javascript
   - reactjs
@@ -118,7 +123,7 @@ function TodoList({ todos, filter }) {
 }
 ```
 
-Code trên bảo React không cần chạy alij hàm bên trong `useMemo` trừ trường hợp `todos` hoặc `filter` thay đổi. React sẽ ghi nhớ kết quả tính toán từ `getFilteredTodos()` trong lần render khởi tạo. Những lần render sau, nó sẽ kiểm tra xem `todos` hoặc `filter` có khác không. Nếu chung vẫn giống lần render trước, `useMemo` sẽ trả lại kết quả trước đã được lưu sẵn. Nếu chúng khác, React gọi chạy lại hàm bên trong, trả về đồng thời lưu lại kết quả tính toán mới. Lưu ý hàm bên trong `useMemo` phải là [hàm thuần khiết - pure function](https://beta.reactjs.org/learn/keeping-components-pure).
+Code trên bảo React không cần chạy alij hàm bên trong `useMemo` trừ trường hợp `todos` hoặc `filter` thay đổi. React sẽ ghi nhớ kết quả tính toán từ `getFilteredTodos()` trong lần render khởi tạo. Những lần render sau, nó sẽ kiểm tra xem `todos` hoặc `filter` có khác không. Nếu chung vẫn giống lần render trước, `useMemo` sẽ trả lại kết quả trước đã được lưu sẵn. Nếu chúng khác, React gọi chạy lại hàm bên trong, trả về đồng thời lưu lại kết quả tính toán mới. Lưu ý hàm bên trong `useMemo` phải là [hàm thuần khiết - pure function](/blog/react/pure-component).
 
 ### Reset toàn bộ state khi prop thay đổi
 

@@ -18,6 +18,10 @@ cover:
   caption: "Photo by Pahala Basuki on Unplash"
 ---
 
+Mình cứ trong veo thì sợ gì.
+
+<!--more-->
+
 ## Hàm thuần khiết
 
 Trong khoa học máy tính (đặc biệt trong giới lập trình hướng hàm - functional programming), [hàm thuần khiết](https://wikipedia.org/wiki/Pure_function) là hàm có các đặc tính sau:

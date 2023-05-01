@@ -11,6 +11,7 @@ tags:
   - javascript
   - reactjs
   - new-reactjs-docs
+  - react.dev
   - useEffect
 cover:
   image: "https://source.unsplash.com/B2mq60Ksrsg"

@@ -9,6 +9,7 @@ tags:
   - javascript
   - reactjs
   - new-reactjs-docs
+  - react.dev
   - reactjs-basic
   - useState
 ---
@@ -235,4 +236,4 @@ Reactjs đang viết lại trang tài liệu chính thức. Một vài điểm �
 
 Ở thời điểm năm 2022, [bản beta của tài liệu mới tại đây](https://beta.reactjs.org/).
 
-Bài viết này dựa phần lớn trên bản gốc [tại đây](https://beta.reactjs.org/apis/react/useState#usestate).
+Bài viết này dựa phần lớn trên bản gốc [tại đây](https://beta.reactjs.org/apis/react/useState).

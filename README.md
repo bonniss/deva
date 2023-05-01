@@ -47,3 +47,11 @@ git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git theme
   - https://github.com/SimonWaldherr/golang-examples
   - https://github.com/Alikhll/golang-developer-roadmap
   - https://www.youtube.com/watch?v=1MXIGYrMk80
+
+### Recipes
+
+#### New content
+
+```sh
+hugo new content/blog/lap-trinh/my-awesome-post.md
+```

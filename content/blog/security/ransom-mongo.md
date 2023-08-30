@@ -16,13 +16,11 @@ Tính tiện lợi không bắt buộc phải đánh đổi bằng tính an toà
 
 ## Triệu chứng
 
-Các test case cuối cùng cũng chạy xong (trong một chiều không gian lý tưởng), bạn háo hức chuẩn bị dữ liệu cho ứng dụng tuyệt vời của mình bằng một bản MongoDB với admin [Mongo Express](https://github.com/mongo-express/mongo-express). Khởi tạo xong xuôi, chưa kịp bung dữ liệu thì bạn tròn mắt khi database (db) ứng dụng đã biết mất, thay vào đó là một database khác với tên đầy mùi đòi tiền:
+Các test case cuối cùng cũng chạy xong (trong một chiều không gian lý tưởng), bạn háo hức chuẩn bị dữ liệu cho ứng dụng tuyệt vời của mình bằng một bản MongoDB với admin [Mongo Express](https://github.com/mongo-express/mongo-express). Khởi tạo xong xuôi, chưa kịp bung dữ liệu thì bạn tròn mắt khi database (db) ứng dụng đã biến mất, thay vào đó là một db gì đâu đầy mùi đòi tiền:
 
 {{< im "/images/gallery/ransom-mongo/readme-to-recover.png" "Recover what? 💀" 720 >}}
 
-Bạn thở phào nhẹ nhõm. Tự dưng thấy xót ngang cho sự kém may mắn của một bên là bọn hacker đã ăn cắp một cái db rỗng và một bên các đồng nghiệp khác với db đã bung dữ liệu. Quăng chài mà, trăm chú son một là có tiền rồi.
-
-Cái db trời đánh kia chỉ có 1 bản ghi, và tất nhiên là đòi tiền.
+Cái db trời đánh này chỉ có 1 bản ghi, và tất nhiên là xin đểu.
 
 ```js
 {
@@ -30,6 +28,8 @@ Cái db trời đánh kia chỉ có 1 bản ghi, và tất nhiên là đòi ti�
     content: 'All your data is backed up. You must pay 0.0125 BTC to 19GCf7HvckzroTEQQcAfotci9WDkzpk5jW In 48 hours, your data will be publicly disclosed and deleted. (more information: go to http://iplis.ru/data1)After paying send mail to us: rambler+15v6h@onionmail.org and we will provide a link for you to download your data. Your DBCODE is: 15V6H'
 }
 ```
+
+Sự chậm chạp bung dữ liệu lại khiến bạn thở phào nhẹ nhõm. Tự dưng thấy xót ngang cho sự kém may mắn của một bên là bọn hacker đã ăn cắp một cái db rỗng và một bên các đồng nghiệp khác với db đã bung dữ liệu. Quăng chài mà, trăm chú son một là có tiền rồi.
 
 Nếu db đã có dữ liệu rồi thì rụng tim là thật.
 

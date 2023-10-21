@@ -45,7 +45,7 @@ Database được triển khai với các thiết lập mặc định và bộc 
 
 ## Thuốc
 
-Nếu bạn không có backup thì xin chia buồn. Hãy thường xuyên bachup database như thể chỉ 5 giây sau bạn sẽ mất chúng.
+Nếu bạn không có backup thì xin chia buồn. Hãy thường xuyên backup database như thể chỉ 5 giây sau bạn sẽ mất chúng.
 
 Khẩu quyết lại là "Phòng bệnh hơn chữa bệnh". Một số việc phải làm khi đưa db lên production:
 

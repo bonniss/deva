@@ -31,6 +31,9 @@ git clone https://github.com/apvarun/digital-garden-hugo-theme.git
 
 # clone as a submodule
 git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden
+
+# with depth
+git submodule add --depth 1 -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
 
 ### How to change highlight.js style

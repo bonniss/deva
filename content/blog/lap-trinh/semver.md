@@ -53,7 +53,6 @@ Dễ thấy độ rủi ro khi thay đổi phiên bản tăng dần từ phải 
   #semver__example {
     font-weight: 600;
     font-size: 200%;
-    margin-bottom: 1rem;
   }
   #semver__example .semver__sep {
     color: var(--tw3-zinc-400)
@@ -74,7 +73,7 @@ Dễ thấy độ rủi ro khi thay đổi phiên bản tăng dần từ phải 
     color: var(--tw3-emerald-500)
   }
 </style>
-<div id="semver__example" class="center">
+<div id="semver__example" class="text-center">
 <span class="semver__major">4</span>
 <span class="semver__sep">.</span>
 <span class="semver__minor">3</span>
@@ -86,7 +85,9 @@ Dễ thấy độ rủi ro khi thay đổi phiên bản tăng dần từ phải 
 <span class="semver__buildmetadata">5114f85</span>
 </div>
 
-Quy ước khi `MAJOR` bằng 0, phần mềm đang ở trạng thái bắt đầu phát triển. Mọi tính năng đang hình thành và thay đổi mạnh mẽ, nên rất thiếu ổn định để có thể sử dụng trong production. Tất nhiên vẫn có những ngoại lệ như React Native. Thư viện phát triển app mobile bằng JS này chưa biết đến khi nào mới phát hành chính thức bản đầu tiên, song đã được sử dụng vô cùng rộng rãi trong thực tế (phiên bản React Native ở thời điểm viết bài này là `0.70.x`).
+Quy ước khi `MAJOR` bằng 0, phần mềm đang ở trạng thái bắt đầu phát triển. Mọi tính năng đang hình thành và thay đổi mạnh mẽ, nên rất thiếu ổn định để có thể sử dụng trong production.
+
+> Tất nhiên vẫn có những ngoại lệ như React Native. Thư viện phát triển app mobile bằng JS này chưa biết đến khi nào mới phát hành chính thức bản đầu tiên, song đã được sử dụng vô cùng rộng rãi trong thực tế (phiên bản React Native ở thời điểm viết bài này là `0.70.x`).
 
 #### Minh hoạ tiêu biểu
 

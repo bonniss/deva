@@ -6,11 +6,13 @@ categories:
 tags:
   - javascript
   - json-schema
+series:
+  - JSON Schema
+series_order: 1
+summary: Để lái xe giỏi thì cần tập lái nhiều hay trở thành kỹ sư kỹ thuật ô tô?
 ---
 
 Để lái xe giỏi thì cần tập lái nhiều hay trở thành [kỹ sư kỹ thuật ô tô](https://www.howacarworks.com/)?
-
-<!--more-->
 
 > JSON Schema là một công cụ mạnh mẽ để mô tả và xác minh cấu trúc dữ liệu JSON. Bài viết sau đây giới thiệu sơ lược về công cụ này, tham khảo chính từ cuốn sách [Understanding JSON Schema](https://json-schema.org/understanding-json-schema/index.html).
 

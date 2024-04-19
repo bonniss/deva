@@ -1,5 +1,5 @@
 ---
-title: Sử dụng Ansible trên Windows (Subsystem for Linux)
+title: "Sử dụng Ansible trên Windows (Subsystem for Linux)"
 description:
 draft: false
 date: 2021-08-06 02:32:08

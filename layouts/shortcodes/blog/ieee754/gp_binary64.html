@@ -1,14 +1,20 @@
 <style>
   #i3e-754__double-example {
-    --width-unit: 10px;
+    --width-unit: calc(100%/64);
     --cl-sign: var(--tw3-yellow-500);
+    --cl-text-sign: var(--tw3-yellow-600);
     --cl-exponent: var(--tw3-pink-500);
+    --cl-text-exponent: var(--tw3-pink-600);
     --cl-fraction: var(--tw3-teal-500);
+    --cl-text-fraction: var(--tw3-teal-600);
+
+    width: 100%;
+    display: flex;
+    margin: 4em 0;
   }
   #i3e-754__double-example > * {
     position: relative;
-    display: inline-flex;
-    height: 20px;
+    height: 40px;
   }
   #i3e-754__double-example .com__lbl {
     position: absolute;
@@ -49,26 +55,26 @@
     background: var(--cl-fraction);
   }
   .bg__sign {
-    background: var(--tw3-yellow-500);
+    background: var(--cl-sign);
   }
   .bg__exponent {
-    background: var(--tw3-pink-500);
+    background: var(--cl-exponent);
   }
   .bg__fraction {
-    background: var(--tw3-teal-500);
+    background: var(--cl-fraction);
   }
   .cl__sign {
-    color: var(--tw3-yellow-600);
+    color: var(--cl-text-sign);
   }
   .cl__exponent {
-    color: var(--tw3-pink-600);
+    color: var(--cl-text-exponent);
   }
   .cl__fraction {
-    color: var(--tw3-teal-600);
+    color: var(--cl-text-fraction);
   }
 </style>
 
-<div id="i3e-754__double-example" class="center my4">
+<div id="i3e-754__double-example">
   <div class="com__sign">
     <span class="com__lbl lbl__left">63</span>
     <span class="com__lbl lbl__bottom lbl__left cl__sign" style="width: 2.25rem"

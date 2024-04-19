@@ -6,9 +6,10 @@ categories:
   - Thư quán
 tags:
   - toi-dich
+summary: Trận "Đại hồng thủy kẹo mạch nha", ngỡ chỉ xuất hiện trong các câu chuyện thần tiên của trẻ nhỏ, thực tế đã xảy ra như một trong những sự kiện thảm khốc và bi thương nhất trong lịch sử thành phố Boston.
 ---
+
 Tròn 100 năm trước, một bể chứa 2,3 triệu gallon (tương đương 8706 m³ hay 8,7 tỷ lít) mật rỉ đường đột ngột vỡ tung và tàn phá nặng nề thành phố Boston Đông Bắc Hoa Kỳ. Các nhà khoa học hiện đại đã hiểu tại sao cơn sóng thần si-rô này lại chết chóc đến như vậy.
-<!--more-->
 
 {{< im "/images/gallery/boston-molasses/cover.jpg" "" 720 >}}
 
@@ -65,5 +66,3 @@ Nhóm nghiên cứu sử dụng một mô hình địa vật lý được phát 
 > Then the viscous regime generally follows. This is what dictates how slowly the fluid spreads out – and explains the grim consequences of the Boston disaster.
 
 3. "Chế độ cô đặc diễn ra sau đó," ông kết luận. Đây là giai đoạn quyết định dòng mật khổng lồ lan ra từ từ hay nhanh chóng – và từ đó giải thích hậu quả kinh hoàng của thảm họa Boston.
-
-./.

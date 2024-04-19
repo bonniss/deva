@@ -1,7 +1,4 @@
 ---
-title: "Chủ đề"
-description:
+title: Chủ đề
+description: Danh sách chủ đề
 ---
-
-<!-- Add custom metadata to taxonomies -->
-<!-- https://gohugo.io/content-management/taxonomies/#add-custom-metadata-to-a-taxonomy-or-term -->

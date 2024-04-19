@@ -1,7 +1,6 @@
 ---
 title: "Number trong Javascript: Dấu chấm động và IEEE 754"
 date: 2019-10-10T09:04:46+07:00
-math: true
 categories:
   - Lập trình
 tags:
@@ -10,11 +9,12 @@ tags:
   - ieee-754
   - arithmetic
 slug: js-number-ieee754
+params:
+  math: true
+summary: 0.1 + 0.2 !== 0.3 (╯ ͡• ͜ʖ ͡•)╯┻━┻
 ---
 
-0.1 + 0.2 !== 0.3 (╯ ͡• ͜ʖ ͡•)╯┻━┻
-
-<!--more-->
+{{<blog/ieee754/script_deps>}}
 
 ## Giới thiệu
 

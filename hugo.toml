@@ -1,0 +1,4 @@
+baseURL = 'https://nauda.dev/'
+languageCode = 'vi-VN'
+title = 'Nâu Đá Dev'
+description = 'Một cuốn sổ để tự nhắc mình phải ghi chép mỗi khi uống nâu đá. Kết quả mình toàn gọi bạc xỉu!'

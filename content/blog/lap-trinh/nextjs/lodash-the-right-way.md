@@ -13,7 +13,7 @@ tags:
 
 Lý Tiểu Long nói đại ý: không sợ kẻ biết 1 vạn kiểu đá, chỉ sợ kẻ tập 1 kiểu 1 vạn lần. Vậy kẻ đá được 1 vạn kiểu 1 vạn lần có chắc là vô đối?
 
-<!--more-->
+## "Thời nào rồi còn Lodash?"
 
 [Lodash](https://lodash.com/), tiền thân là [Underscore.js](http://underscorejs.org/), là một thư viện tổng hợp các hàm phụ trợ giúp giải quyết nhiều tác vụ thường gặp trong lập trình Javascript. Cùng với jQuery, Lodash thần thánh giúp tuổi thọ của lập trình viên Javascript lên chút ít \\( ͡❛ ͜ʖ ͡❛)/ Thế nhưng cũng như jQuery, sự vô đối này có nguy cơ sụp đổ bởi sự tiến hóa không ngừng của Javascript.
 
@@ -32,9 +32,11 @@ Lodash và ES6 hiển nhiên không cần phải đối đầu một mất một
 - Nếu bạn chỉ cần một vài hàm phụ trợ đơn giản, hoặc bạn muốn tự xây dựng một thư viện hàm phụ trợ cho riêng mình để dùng lại cho nhiều dự án, [có thể bạn không cần đến Lodash](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore).
 - Nếu bạn xử lý dữ liệu thường xuyên trong Javascript và cần một công cụ tin cậy đã được thời gian kiểm chứng, hướng dẫn sử dụng Lodash [tại đây](https://www.blazemeter.com/blog/import-lodash-libraries) có thể hữu ích cho bạn
 
+## Tree-shaking Lodash trong Next.js
+
 Nội dung chính của bài viết này là làm 1 PoC về khả năng tree-shaking Lodash trong Next.js
 
-## Chuẩn bị
+### Chuẩn bị
 
 - Tạo một project Next.js
 
@@ -58,7 +60,7 @@ ANALYZE=true
 ANALYZE=false
 ```
 
-## Thử `lodash`
+### Thử `lodash`
 
 - Tạo và checkout branch `with-lodash`
 
@@ -163,7 +165,7 @@ Ta sử dụng hàm `groupBy` của `lodash` để phân nhóm các anh hùng Ma
 npm run build
 ```
 
-## Thử `lodash-es`
+### Thử `lodash-es`
 
 `lodash-es` là bản build Lodash sử dụng ES6 module, vì vậy có thể tree-shaking bởi module bundler như Webpack. Nói cách khác, thay vì import gần 70K với:
 
@@ -228,7 +230,7 @@ module.exports = withPlugins([
 npm run build
 ```
 
-## So sánh
+### So sánh
 
 Output build với `lodash`:
 
@@ -279,4 +281,6 @@ Xem chi tiết đồ thị analyzer:
 - [Với lodash](/misc/analyze_lodash/client.html)
 - [Với lodash-es](/misc/analyze_lodash-es/client.html)
 
-Chi tiết source code trong bài [tại đây](https://github.com/bonniss/nextjs-lodash-treeshaking).
+Source code trong bài có tại repo dưới đây.
+
+{{< github repo="bonniss/nextjs-lodash-treeshaking" >}}

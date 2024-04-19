@@ -27,7 +27,7 @@ Các tiểu tử miệng còn hôi sữa đôi khi lại thi triển thuần th�
 
 Hãy đọc cho kỹ "tàng kinh các" sau để biết mình đang ở đâu - một ninja, một đệ tử tập sự hay một reviewer. Dù là ai đi nữa, bạn hoàn toàn có thể bị hạ gục, hoặc chính bạn dù gà mờ cũng có thể khiến một cao thủ ninja vò đầu bứt óc bằng cách dùng ít nhất một trong các chiêu thức sau đây.
 
-## Cô đọng là tinh hoa
+## 🥷 Cô đọng là tinh hoa
 
 Hãy viết code ngắn nhất có thể, càng ngắn càng thể hiện bạn thông minh, cực kỳ thông minh.
 
@@ -44,7 +44,7 @@ Rất ngầu phải không? Hẳn sẽ có nhiều trò vui nếu một vị lã
 
 Hãy nói với hắn rằng, cô đọng là tinh hoa. Hãy dẫn dắt hắn vào con đường trở thành một ninja code như bạn.
 
-## Đặt tên biến một ký tự
+## 🥷 Đặt tên biến một ký tự
 
 Một chiêu thức hữu hiệu để code nhanh hơn đó là sử dụng tên biến chỉ có một ký tự như `a`, `b` hoặc `p`, mọi lúc mọi nơi!
 
@@ -54,7 +54,7 @@ Các biến này hòa vào trong code như một ninja vụt mất sau cánh r�
 
 Những tên biến kỳ vĩ như thế càng trở nên ảo diệu hơn trong trường hợp thân vòng lặp dài cả 1,2 trang (gắng viết dài hơn nữa nếu được). Lúc này nếu ai đó muốn khám phá vòng lặp này, họ sẽ không dễ gì mà thấy được `x` ở đây là biến đếm của vòng lặp.
 
-## Dùng ký hiệu viết tắt
+## 🥷 Dùng ký hiệu viết tắt
 
 Nếu không may luật của team cấm sử dụng biến một ký tự hoặc tên kém nghĩa - hãy thu gọn chúng lại thành các *ký hiệu viết tắt*.
 
@@ -67,7 +67,7 @@ Như này:
 
 Ai có trực giác tốt mới hiểu được những cái tên này. Hãy rút ngắn tất cả. Chỉ những người xứng đáng mới được phát triển di sản code của bạn.
 
-## Bồng bềnh như làn sương mờ ảo
+## 🥷 Bồng bềnh như làn sương mờ ảo
 
 Hãy chọn những cái tên mơ hồ nhất có thể, ví dụ `obj`, `data`, `value`, `item`, `elem`..
 
@@ -79,7 +79,7 @@ Hãy chọn những cái tên mơ hồ nhất có thể, ví dụ `obj`, `data`,
 
 - ...Nhưng nếu tất cả những cái tên tuyệt đỉnh này đều đã được đặt? Dễ lắm, hãy thêm số vào: `data1`, `item2`, `elem5`...
 
-## Kiểm tra độ tập trung
+## 🥷 Kiểm tra độ tập trung
 
 Chỉ những lập trình viên thật sự tập trung mới có vinh dự được hiểu code của bạn. Nhưng làm thế nào để kiểm tra điều đó?
 
@@ -89,7 +89,7 @@ Trộn chúng vào nhau.
 
 Không thể đọc lướt mà hiểu được code kiểu này. Và nếu chẳng may bạn ...gõ sai ở đâu đó, chúng ta sẽ có thêm thời gian để thưởng trà và đàm đạo.
 
-## Từ đồng nghĩa khôn ngoan
+## 🥷 Từ đồng nghĩa khôn ngoan
 
 > Không gì khó bằng việc phải tìm một con mèo đen trong một căn phòng tối, nhất là khi không có con mèo nào cả.</p>
 > — <cite>Khổng Tử</cite>
@@ -108,7 +108,7 @@ Kể cả với hai hàm chức năng khác nhau hoàn toàn, hãy cứ dùng ch
 
 Thế này, hàm `printPage(page)` được dùng cho máy in, trong khi hàm `printText(text)` thì hiện văn bản lên màn hình. Một người đọc code tầm thường sẽ không khỏi rối trí: vậy thì hàm `printMessage` sẽ đưa thông điệp ra máy in hay lên màn hình hiện tại? Và để ghi cú hat-trick, `printMessage(message)` nên xuất thông điệp lên một cửa sổ mới!
 
-## Dùng lại tên biến
+## 🥷 Dùng lại tên biến
 
 Chỉ tạo tên mới khi thực sự cần thiết.
 
@@ -132,7 +132,7 @@ function ninjaFunction(elem) {
 
 Phép thuật này không hiếm gặp trong code. Sát thương cực mạnh, ngay cả với những ninja lão làng.
 
-## "Gạch dưới" vì đam mê
+## 🥷 "Gạch dưới" vì đam mê
 
 Hãy thêm `_` và `__` vào trước tên biến, ví dụ `_name` và `__value`. Thật tuyệt nếu chỉ mình bạn hiểu ý nghĩa của chúng. Hoặc cao hơn, làm vậy cho vui thôi, không có nghĩa gì đặc biệt cả. Hay ma mị hơn nữa là ý nghĩa thế nào còn tùy thuộc vào vị trí xuất hiện của chúng trong code.
 
@@ -140,13 +140,13 @@ Một công đôi việc. Thứ nhất, code sẽ dài hơn, khó đọc hơn h�
 
 Một ninja lanh lợi sẽ dùng gạch dưới ở chỗ này và không dùng ở chỗ khác. Code sẽ phân mảnh, khó maintain và tăng cơ hội cho các lỗi xuất hiện trong tương lai.
 
-## Lồng vào cảm xúc
+## 🥷 Lồng vào cảm xúc
 
 Hãy để loài người thấy các thực thể trong code của bạn tuyệt mỹ đến nhường nào. Các tên biến như `superElement`, `megaFrame` và `niceItem` chắc chắn sẽ khai sáng cho người đọc code.
 
 Thật vậy, một mặt, mọi thứ sẽ "chất hơn", "kỳ diệu hơn", "dễ thương hơn". Mặt khác, chúng lại không hề mang lại thông tin gì. Người đọc code sẽ băn khoăn rằng có ẩn ý gì không, có khi phải ngồi thiền một vài giờ công nhật để giải tỏa căng thẳng.
 
-## Chồng lấn scope biến (Shadow name)
+## 🥷 Chồng lấn scope biến (Shadow name)
 
 Hãy dùng cùng một tên biến cả trong và ngoài hàm. Đơn giản. Sao phải tốn công nghĩ ra tên mới.
 
@@ -165,7 +165,7 @@ function render() {
 
 Một lãng khách nhảy vào `render` sẽ không dễ gì nhận ra `user` trong hàm đang "bóng đè" lên `user` ngoài. Hắn sẽ giả thiết giá trị `user` được trả về từ `authenticateUser()`. Bẫy sập! Xin chào debugger...
 
-## Tác dụng phụ (Side Effect) khắp nơi
+## 🥷 Tác dụng phụ (Side Effect) khắp nơi
 
 Một số hàm, như `isReady()`, `checkPermission()`, `findTags()`, có vẻ như không thay đổi gì cả. Chúng được cho là sẽ thực hiện tính toán và trả về kết quá, không đả động gì đến bất cứ thứ gì bên ngoài hàm. Nói cách khác, không có "tác dụng phụ".
 
@@ -179,7 +179,7 @@ Hãy để `checkPermission` thay vì trả về `true/false`, lại là một o
 
 Những dev ngây thơ cố viết `if (checkPermission(..))` sẽ kinh ngạc khi code không chạy. Bao dung nói với chúng "Đọc tài liệu đi!". Và gửi kèm tàng kinh các này.
 
-## Tạo ra các hàm quyền năng
+## 🥷 Tạo ra các hàm quyền năng
 
 Đừng giới hạn khả năng của hàm bởi tên của chúng. Nghĩ thoáng ra.
 
@@ -191,7 +191,7 @@ Các hành động thêm vào không nên thể hiện qua tên hàm. Một ninj
 
 Thử tưởng tượng, một dev khác chỉ muốn check email và không xuất ra thông báo gì cả. Hàm `validateEmail(email)` của bạn không đáp ứng cả hai. Vậy là họ chẳng thể khai thác được gì từ bạn.
 
-## Kết luận
+## 🥷 Kết luận
 
 Tất cả những "tà chiêu" ở trên đều được đúc rút từ code thật, thậm chí tác giả nhiều khi là những dev giàu kinh nghiệm, giàu hơn bạn tưởng nữa.
 
@@ -199,6 +199,6 @@ Tất cả những "tà chiêu" ở trên đều được đúc rút từ code t
 - Tu luyện phần lớn, code của bạn bất khả xâm phạm: không ai có thể (thèm?) sửa code của bạn nữa.
 - Thuần thục tất cả, code của bạn được lưu danh sử sách như bài học vô giá cho những dev trẻ đang khao khát được khai sáng.
 
-## Tham khảo
+## 🥷 Tham khảo
 
 [Javascript.info: Ninja code](https://javascript.info/ninja-code)

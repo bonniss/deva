@@ -16,13 +16,12 @@ tags:
   - react.dev
   - react-suspense
   - react-strict-mode
+summary: Code kỹ lắm rồi mà API cứ bị gọi 2 lần là sao?
 ---
 
-Tại sao component của tôi luôn render 2 lần?
-
-<!--more-->
-
+{{< alert icon="circle-info" >}}
 Phiên bản React trong bài này là 18.2.0.
+{{< /alert >}}
 
 ## Fragment
 

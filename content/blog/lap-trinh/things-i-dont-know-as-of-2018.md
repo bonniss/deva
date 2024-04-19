@@ -8,14 +8,16 @@ tags:
   - toi-dich
   - dan-abramov
   - overreacted
+summary: Có rất rất nhiều thứ tôi không rành như mọi người vẫn tưởng tượng. Tôi không thấy đó là điều gì khủng khiếp và cũng chẳng có ý định ca thán.
 ---
-Có rất rất nhiều thứ tôi không rành như mọi người vẫn tưởng tượng. Tôi không thấy đó là điều gì khủng khiếp và cũng chẳng có ý định ca thán. (Bạn không thể tránh khỏi những ý kiến trái chiều từ đám đông ngoài kia, kể cả khi bạn đã có chút tiếng tăm nhờ sự nỗ lực không ngừng, thật chuối!)
-<!--more-->
+
 > *[Lời người dịch]*
 >
 > [Dan Abramov](https://twitter.com/dan_abramov) là developer@Reactjs của Facebook. Anh là đồng tác giả của [Redux](https://github.com/reduxjs/redux) và [create-react-app](https://github.com/facebook/create-react-app). Ngoài việc là một core member của team React, Dan đóng góp rất tích cực vào cộng đồng open source qua những trả lời issue trên Github hay [những bài viết cực kỳ chất lượng trên Medium](https://medium.com/@dan_abramov), hỗ trợ hiệu quả cho các dev Javascript trên toàn thế giới. Dan còn là một diễn giả ấn tượng tại các sự kiện lớn của cộng đồng Javascript với lối diễn đạt gần gũi, dễ hiểu nhưng chặt chẽ, cách giải quyết vấn đề trọng tâm và trực quan. Phong cách đặc trưng này được thấy ngay tại blog cá nhân [Overreacted](https://overreacted.io) nơi Dan "explain with words and code". Nội dung blog viết bằng tiếng Anh và Nga, nội dung đa ngôn ngữ được [đóng góp bởi cộng đồng](https://github.com/gaearon/overreacted.io#contributing-translations). [Xem tại đây](https://twitter.com/dan_abramov/status/618009308211585024) nếu bạn muốn biết rõ hơn về anh chàng tài năng này.
 >
 > Post sau đây được Dan viết vào cuối năm 2018 về nhiều thứ mà anh không giỏi như người ta vẫn nghĩ. Bài học rút ra là không ai có thể giỏi mọi thứ. Hãy xác định tốt những thế mạnh của mình và bổ sung những thiếu hụt khi cần thiết, đừng tự hạ thấp giá trị bản thân. Xem bài viết gốc bằng tiếng Anh [tại đây](https://overreacted.io/things-i-dont-know-as-of-2018). Bản dịch dưới đây đã được [chấp nhận như bản tiếng Việt chính thức cho bài viết này](https://overreacted.io/vi/things-i-dont-know-as-of-2018/).
+
+Có rất rất nhiều thứ tôi không rành như mọi người vẫn tưởng tượng. Tôi không thấy đó là điều gì khủng khiếp và cũng chẳng có ý định ca thán. (Bạn không thể tránh khỏi những ý kiến trái chiều từ đám đông ngoài kia, kể cả khi bạn đã có chút tiếng tăm nhờ sự nỗ lực không ngừng, thật chuối!)
 
 Trong bài này, tôi sẽ đưa ra một danh sách chưa đầy đủ về những chủ đề trong lập trình mà mọi người lầm tưởng rằng tôi biết. Tôi KHÔNG nói rằng bạn KHÔNG nên học chúng, hay tôi không biết những thứ hay ho khác. Hiện tại tôi không đảm nhận một vị trí trọng yếu nào cả, do đó tôi có thể vô tư mà thành thật về những thứ này.
 

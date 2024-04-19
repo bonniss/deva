@@ -7,11 +7,13 @@ tags:
   - javascript
   - json-schema
   - jtd
+series:
+  - JSON Schema
+series_order: 2
+summary: Để lái xe giỏi thì cần tập lái nhiều hay trở thành kỹ sư kỹ thuật ô tô?
 ---
 
 Để lái xe giỏi thì cần tập lái nhiều hay trở thành [kỹ sư kỹ thuật ô tô](https://www.howacarworks.com/)?
-
-<!--more-->
 
 > Mô tả và xác minh dữ liệu là nhu cầu cần thiết với hầu hết mọi ứng dụng. Bài viết sau đây giới thiệu về JSON Type Definition - một ngôn ngữ mô tả dữ liệu như JSON Schema. Nếu bạn chưa từng nghe tới JSON hay ngôn ngữ mô tả dữ liệu, hãy xem [phần 1: giới thiệu về JSON và JSON Schema](/blog/lap-trinh/json-schema/understanding-json-schema).
 

@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --minify -b $URL"
+  command = "git submodule update --init --recursive && hugo --minify -b $URL"
   publish = "public"
 
 [build.environment]
@@ -8,8 +8,8 @@
   TZ = "UTC"  # Set to preferred timezone
 
 [context.production.environment]
-  HUGO_VERSION = "0.104.1"
+  HUGO_VERSION = "0.124.1"
   HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.104.1"
+  HUGO_VERSION = "0.124.1"

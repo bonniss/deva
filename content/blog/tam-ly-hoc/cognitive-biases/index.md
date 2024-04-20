@@ -9,6 +9,10 @@ categories:
 tags:
   - cognitive-bias
 draft: false
+cover:
+  image: "https://source.unsplash.com/7e6y3oclHxE"
+  alt: "Spirituality - Salt lapm"
+  caption: "Photo by Marcos Paulo Prado on Unplash"
 ---
 
 Một chiều đói việc, người viết đi "khảo sát thị trường" xem [ông cố jQuery sắp chết chưa](https://www.reddit.com/r/webdev/comments/biyzg1/is_jquery_dead/). Tham khảo rất nhiều [bài viết](https://flaviocopes.com/jquery/) chia sẻ quan điểm và cả [issue trên github của jQuery](https://github.com/jquery/jquery/issues/3886), người viết bắt gặp một khái niệm có tên "cognitive bias" khi có một vài dev Q mắng một vài dev R và dev A rằng "các ông thành kiến với jQuery quá", đại loại như vậy. Vốn là một con người ham vui và hay bị cuốn theo các thuật ngữ mới và link tham khảo, người viết google và viết bài này nhằm ghi chép cho kết quả tìm kiếm đó. Cảm nhận về "cognitive bias" khi hiểu sơ sơ là "ồ, hóa ra anh em mình ở chung nhà cả đôi chục năm rồi, mà giờ tôi mới biết tên ông/các bạn."

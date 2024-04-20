@@ -12,6 +12,10 @@ tags:
   - next.js link
   - prefetch
 summary: s(ㆆ_ㆆ)s
+cover:
+  image: "https://source.unsplash.com/ukzHlkoz1IE"
+  alt: "White neon wallpaper"
+  caption: "Photo by Austin Chan on Unplash"
 ---
 
 Next.js là một meta-framework cho React - một thư viện UI của Facebook. Next giải quyết nhiều vấn đề mà developer phải đối mặt khi phát triển một ứng dụng React như:

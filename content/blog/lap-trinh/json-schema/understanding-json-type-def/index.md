@@ -11,6 +11,10 @@ series:
   - JSON Schema
 series_order: 2
 summary: Để lái xe giỏi thì cần tập lái nhiều hay trở thành kỹ sư kỹ thuật ô tô?
+cover:
+  image: "https://source.unsplash.com/sbFmoKBK7jU"
+  alt: "Female electrical engineer designs lighting shows"
+  caption: "Photo by ThisisEngineering on Unplash"
 ---
 
 Để lái xe giỏi thì cần tập lái nhiều hay trở thành [kỹ sư kỹ thuật ô tô](https://www.howacarworks.com/)?

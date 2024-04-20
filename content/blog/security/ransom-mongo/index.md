@@ -8,11 +8,12 @@ tags:
   - ransom
   - ransacking
 draft: false
+summary: Tính tiện lợi không bắt buộc phải đánh đổi bằng tính an toàn.
+cover:
+  image: "https://source.unsplash.com/O2hWIsGiBhI"
+  alt: "The Temple of Flora; or Garden of Nature: The Queen Flower 1812 Philip Reinagle (British, 1749–1833) publisher Dr. Thornton Jany. 1, 1812 England, Late 18th- Early 19th century Etching and aquatint hand-colored with watercolor Gift of Robert Hays Gries 1953.436"
+  caption: "Photo by The Cleveland Museum of Art on Unplash"
 ---
-
-Tính tiện lợi không bắt buộc phải đánh đổi bằng tính an toàn.
-
-<!--more-->
 
 ## Triệu chứng
 

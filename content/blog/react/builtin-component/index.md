@@ -2,10 +2,6 @@
 title: "Về Component được trang bị sẵn trong React"
 description: "React tích hợp sẵn một số <Component /> mà bạn có thể dùng với JSX."
 date: 2023-04-30T18:57:13+07:00
-cover:
-  image: "https://source.unsplash.com/Ry9WBo3qmoc"
-  alt: "Canon, EOS 5D Mark IV"
-  caption: "Photo by Jean-Philippe Delberghe on Unplash"
 draft: false
 categories:
   - Lập trình
@@ -17,6 +13,10 @@ tags:
   - react-suspense
   - react-strict-mode
 summary: Code kỹ lắm rồi mà API cứ bị gọi 2 lần là sao?
+cover:
+  image: "https://source.unsplash.com/Ry9WBo3qmoc"
+  alt: "Canon, EOS 5D Mark IV"
+  caption: "Photo by Jean-Philippe Delberghe on Unplash"
 ---
 
 {{< alert icon="circle-info" >}}

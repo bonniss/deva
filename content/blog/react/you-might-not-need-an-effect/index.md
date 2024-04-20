@@ -3,10 +3,6 @@ title: Có thể bạn không cần đến Effect
 description: Cẩm nang `useEffect` đúng cách trong React
 draft: false
 date: 2022-08-15 22:32:08
-cover:
-  image: "https://source.unsplash.com/wc3jFFQxo8k"
-  alt: "Adelaide SA, Australia"
-  caption: "Photo by Nadir sYzYgY on Unplash"
 categories:
   - Lập trình
   - React
@@ -16,6 +12,10 @@ tags:
   - new-reactjs-docs
   - react.dev
   - useEffect
+cover:
+  image: "https://source.unsplash.com/wc3jFFQxo8k"
+  alt: "Adelaide SA, Australia"
+  caption: "Photo by Nadir sYzYgY on Unplash"
 ---
 
 Hiệu ứng hay hệ quả có thể đến sau hoặc không, nhưng nguyên nhân thì chắc chắn đến trước.

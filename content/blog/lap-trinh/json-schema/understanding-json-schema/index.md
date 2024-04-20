@@ -10,6 +10,10 @@ series:
   - JSON Schema
 series_order: 1
 summary: Để lái xe giỏi thì cần tập lái nhiều hay trở thành kỹ sư kỹ thuật ô tô?
+cover:
+  image: "https://source.unsplash.com/n31JPLu8_Pw"
+  alt: "walk walk walk"
+  caption: "Photo by Ryoji Iwata on Unplash"
 ---
 
 Để lái xe giỏi thì cần tập lái nhiều hay trở thành [kỹ sư kỹ thuật ô tô](https://www.howacarworks.com/)?

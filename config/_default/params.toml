@@ -19,7 +19,7 @@ disableImageOptimization = false
 disableTextInHeader = true
 
 defaultBackgroundImage = "images/bullseye-gradient.svg" # used as default for background images
-# defaultFeaturedImage = "images/ogimage.png" # used as default for featured images in all articles
+defaultFeaturedImage = "images/bullseye-gradient.svg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -42,10 +42,10 @@ images = ["logo_with_text.png"]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "images/bullseye-gradient.svg" # used in: hero, and card
   showRecent = true
-  showRecentItems = 10
+  showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/blog"
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 
@@ -113,8 +113,8 @@ images = ["logo_with_text.png"]
   showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showTableOfContents = true
   groupByYear = false
   cardView = false

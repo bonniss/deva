@@ -45,7 +45,7 @@ Adam và Eve bắt đầu hẹn hò. Adam cảm giác Eve "không hợp mình l�
 </div>
 
 <div style="margin-bottom:1.5rem;opacity:0.9;">
-{{< alert icon="heart">}}
+{{< alert icon="bomb">}}
 __Câu chuyện #4.__
 
 Một câu chuyện có thật theo tinh thần "Fake it till you make it".

@@ -25,6 +25,9 @@ highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
+# og:image
+images = ["logo_with_text.png"]
+
 [header]
   layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 

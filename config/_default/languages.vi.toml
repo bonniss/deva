@@ -1,12 +1,14 @@
 languageCode = "vi"
 languageName = "Tiếng Việt"
 weight = 1
+title = "Nâu Đá Dev"
+
 [params]
   displayName = "VI"
   isoCode = "vi"
   rtl = false
   dateFormat = "2/1/2006"
-  description = 'Một cuốn sổ để tự nhắc mình phải ghi chép mỗi khi uống nâu đá. Kết quả mình toàn gọi bạc xỉu!'
+  description = 'Đại loại là sổ tay, nôm na để nguệch ngoạc, thường khi uống nâu đá.'
   logo = "images/icon-with-text-180.png"
   secondaryLogo = "images/secondary-logo.png"
   copyright = "{ year } Duy Trung | Nâu Đá Dev"

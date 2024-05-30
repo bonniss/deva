@@ -11,6 +11,9 @@ description = 'Đại loại là sổ tay, nôm na để nguệch ngoạc, thư�
 
 theme = "blowfish"
 
+# issue: https://github.com/nunocoracao/blowfish/issues/1417
+ignoreLogs = ['error-remote-getjson']
+
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true

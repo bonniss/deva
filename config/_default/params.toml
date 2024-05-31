@@ -23,7 +23,7 @@ defaultFeaturedImage = "images/bullseye-gradient.svg" # used as default for feat
 
 highlightCurrentMenuArea = true
 smartTOC = true
-smartTOCHideUnfocusedChildren = true
+smartTOCHideUnfocusedChildren = false
 
 # og:image
 images = ["logo_with_text.png"]

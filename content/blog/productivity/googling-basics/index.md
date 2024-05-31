@@ -169,4 +169,4 @@ Tiêu đề thường là nội dung `title` hoặc `h1` trong HTML.
 
 - [[Ahrefs] Google advanced search operators](https://ahrefs.com/blog/google-advanced-search-operators/)
 - [[GoogleGuide] Sharpening queries](https://www.googleguide.com/sharpening_queries.html)
-- [[Google blog] Refine Google searches](https://support.google.com/websearch/answer/2466433)
+- [[Google Support] Refine Google searches](https://support.google.com/websearch/answer/2466433)

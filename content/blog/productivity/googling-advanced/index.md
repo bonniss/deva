@@ -532,6 +532,4 @@ Người dùng có thể tìm màu theo từ khoá:
 ## Tài liệu tham khảo
 
 - [Google advanced search](https://www.google.com/advanced_search)
-- [[Ahrefs] Google advanced search operators](https://ahrefs.com/blog/google-advanced-search-operators/)
-- [[GoogleGuide] Sharpening queries](https://www.googleguide.com/sharpening_queries.html)
-- [[Google blog] Refine Google searches](https://support.google.com/websearch/answer/2466433)
+- [[Google Support] Manage calculator, unit converter & color codes](https://support.google.com/websearch/answer/3284611)

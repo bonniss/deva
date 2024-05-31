@@ -9,7 +9,7 @@ categories:
 tags:
   - productivity
   - googling
-summary:
+summary: "\"Chúng tôi muốn Google trở thành bán cầu não thứ ba của đại chúng.\" - Sergey Brin"
 series:
   - Sổ tay Gúc-thủ
 series_order: 2

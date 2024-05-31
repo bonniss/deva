@@ -9,7 +9,7 @@ categories:
 tags:
   - productivity
   - googling
-summary:
+summary: "\"Bạn có thể thấy Google ngon, chứ tôi vẫn thấy nó tệ vl.\" - Larry Page"
 series:
   - Sổ tay Gúc-thủ
 series_order: 1

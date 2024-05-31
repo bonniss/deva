@@ -79,21 +79,21 @@ Bỏ cụm từ vào dấu nháy kép `""`.
 
 - `phần mềm chỉnh sửa ảnh "windows 11"`
 
-### A hoặc B (`OR`)
+### A hoặc B `OR`
 
 Dùng toán tử `OR` (phải viết hoa) hoặc `|`.
 
 - `climate change OR global warming`
 - `jobs | gates`
 
-### A và B (`AND`)
+### A và B `AND`
 
 Dùng toán tử `AND` (phải viết hoa) hoặc `&`.
 
 - `jobs AND gates`
 - `climate change & global warming`
 
-### Khớp bất kỳ (`*`)
+### Khớp bất kỳ `*`
 
 - `david * liverpool`
 - `nguyễn sinh * nghệ an`
@@ -105,7 +105,7 @@ Dùng toán tử `AND` (phải viết hoa) hoặc `&`.
 - `loài gặm nhấm -chuột`
 - `nhạc trẻ hay -"hồ quang hiếu"`
 
-### Gom nhóm
+### Gom (nhóm)
 
 - `(tủ lạnh OR máy giặt) samsung`
 
@@ -113,7 +113,7 @@ có thể xem như tương đương
 
 - `tủ lạnh samsung OR máy giặt samsung`
 
-### Có khoảng số
+### Có khoảng..số
 
 Sử dụng hai dấu chấm liên tiếp `..`.
 
@@ -123,11 +123,7 @@ Sử dụng hai dấu chấm liên tiếp `..`.
 
 ## Thu gọn kết quả hiệu quả
 
-### Chỉ hiện kết quả ở ngôn ngũ L
-
-
-
-### Chỉ hiện kết quả ở trang Z
+### Chỉ hiện kết quả ở trang `site:`
 
 Sử dụng bộ lọc `site:` với giá trị có thể là tên miền đầy đủ hoặc đuôi tên miền.
 
@@ -143,7 +139,7 @@ Lưu ý sau bộ lọc `site:` không có dấu cách.
 
 ✅ `center a div site:stackoverflow.com`
 
-### Lọc kết quả là file
+### Lọc kết quả theo `filetype:`
 
 Dùng bộ lọc `filetype:` hoặc `ext:`.
 
@@ -324,17 +320,336 @@ Truy vấn theo nhiều tham số được nối với nhau bởi dấu `&`.
 
 ### Lọc kết quả theo thời gian
 
-Tên tham số: `as_qdr`. Các giá trị khả dụng.
+Tên tham số: `as_qdr` với các giá trị khả dụng sau.
 
-|Giá trị|Giải thích|Ví dụ|
-|--|--|--|
-|`d`|Kết quả của ngày trước|`as_qdr=d`,`as_qdr=d3`|
-|`w`|Kết quả của tuần trước|`as_qdr=w`|
-|`m`|Kết quả của tháng trước|`as_qdr=m`|
-|`y`|Kết quả của năm trước|`as_qdr=y`,`as_qdr=y15`|
+|Giá trị|Giải thích|
+|--|--|
+|`h`|Kết quả từ giờ trước đến nay|
+|`d`|Kết quả từ ngày trước đến nay|
+|`w`|Kết quả từ tuần trước đến nay|
+|`m`|Kết quả của tháng trước đến nay|
+|`y`|Kết quả của năm trước đến nay|
+
+_Minh họa_.
+
+- `as_qdr=h10`: 10 tiếng qua.
+![10 tiếng qua](gg/past10hr.png)
+
+- `as_qdr=d`: 24h/1 ngày qua.
+![24h qua](gg/past24hr.png)
+
+- `as_qdr=w2`: 2 tuần qua.
+![2 tuần qua](gg/past2w.png)
+
+- `as_qdr=w2`: 10 năm qua.
+![alt text](gg/past10yr.png)
+
+### Lọc kết quả theo ngôn ngữ
+
+Tham số `lr` với các giá trị khả dụng sau.
+
+|Giá trị|Ngôn ngữ|
+|--|--|
+|`lang_af`|Afrikaans|
+|`lang_ar`|Arabic|
+|`lang_hy`|Armenian|
+|`lang_be`|Belarusian|
+|`lang_bg`|Bulgarian|
+|`lang_ca`|Catalan|
+|`lang_zh-CN`|Chinese (Simplified)|
+|`lang_zh-TW`|Chinese (Traditional)|
+|`lang_hr`|Croatian|
+|`lang_cs`|Czech|
+|`lang_da`|Danish|
+|`lang_nl`|Dutch|
+|`lang_en`|English|
+|`lang_eo`|Esperanto|
+|`lang_et`|Estonian|
+|`lang_tl`|Filipino|
+|`lang_fi`|Finnish|
+|`lang_fr`|French|
+|`lang_de`|German|
+|`lang_el`|Greek|
+|`lang_iw`|Hebrew|
+|`lang_hi`|Hindi|
+|`lang_hu`|Hungarian|
+|`lang_is`|Icelandic|
+|`lang_id`|Indonesian|
+|`lang_it`|Italian|
+|`lang_ja`|Japanese|
+|`lang_ko`|Korean|
+|`lang_lv`|Latvian|
+|`lang_lt`|Lithuanian|
+|`lang_no`|Norwegian|
+|`lang_fa`|Persian|
+|`lang_pl`|Polish|
+|`lang_pt`|Portuguese|
+|`lang_ro`|Romanian|
+|`lang_ru`|Russian|
+|`lang_sr`|Serbian|
+|`lang_sk`|Slovak|
+|`lang_sl`|Slovenian|
+|`lang_es`|Spanish|
+|`lang_sw`|Swahili|
+|`lang_sv`|Swedish|
+|`lang_th`|Thai|
+|`lang_tr`|Turkish|
+|`lang_uk`|Ukrainian|
+|`lang_vi`|Vietnamese|
+
+![Ngôn ngữ trung](gg/langzhsimp.png)
+
+### Lọc kết quả theo quốc gia và vùng lãnh thổ
+
+{{< alert icon="circle-info">}}
+Chức năng này được hiểu theo nghĩa là lọc ra các kết quả có thể xem được từ quốc gia và vũng lãnh thổ được chọn.
+{{</ alert>}}
+
+Tham số `cr` với các giá trị khả dụng sau.
+
+|Giá trị|Ngôn ngữ|
+|--|--|
+|`countryAF`|Afghanistan|
+|`countryAL`|Albania|
+|`countryDZ`|Algeria|
+|`countryAS`|American Samoa|
+|`countryAD`|Andorra|
+|`countryAO`|Angola|
+|`countryAI`|Anguilla|
+|`countryAQ`|Antarctica|
+|`countryAG`|Antigua & Barbuda|
+|`countryAR`|Argentina|
+|`countryAM`|Armenia|
+|`countryAW`|Aruba|
+|`countryAU`|Australia|
+|`countryAT`|Austria|
+|`countryAZ`|Azerbaijan|
+|`countryBS`|Bahamas|
+|`countryBH`|Bahrain|
+|`countryBD`|Bangladesh|
+|`countryBB`|Barbados|
+|`countryBY`|Belarus|
+|`countryBE`|Belgium|
+|`countryBZ`|Belize|
+|`countryBJ`|Benin|
+|`countryBM`|Bermuda|
+|`countryBT`|Bhutan|
+|`countryBO`|Bolivia|
+|`countryBA`|Bosnia & Herzegovina|
+|`countryBW`|Botswana|
+|`countryBV`|Bouvet Island|
+|`countryBR`|Brazil|
+|`countryIO`|British Indian Ocean Territory|
+|`countryVG`|British Virgin Islands|
+|`countryBN`|Brunei|
+|`countryBG`|Bulgaria|
+|`countryBF`|Burkina Faso|
+|`countryBI`|Burundi|
+|`countryKH`|Cambodia|
+|`countryCM`|Cameroon|
+|`countryCA`|Canada|
+|`countryCV`|Cape Verde|
+|`countryKY`|Cayman Islands|
+|`countryCF`|Central African Republic|
+|`countryTD`|Chad|
+|`countryCL`|Chile|
+|`countryCN`|China|
+|`countryCX`|Christmas Island|
+|`countryCC`|Cocos (Keeling) Islands|
+|`countryCO`|Colombia|
+|`countryKM`|Comoros|
+|`countryCG`|Congo - Brazzaville|
+|`countryCD`|Congo - Kinshasa|
+|`countryCK`|Cook Islands|
+|`countryCR`|Costa Rica|
+|`countryCI`|Côte d’Ivoire|
+|`countryHR`|Croatia|
+|`countryCU`|Cuba|
+|`countryCY`|Cyprus|
+|`countryCZ`|Czechia|
+|`countryDK`|Denmark|
+|`countryDJ`|Djibouti|
+|`countryDM`|Dominica|
+|`countryDO`|Dominican Republic|
+|`countryEC`|Ecuador|
+|`countryEG`|Egypt|
+|`countrySV`|El Salvador|
+|`countryGQ`|Equatorial Guinea|
+|`countryER`|Eritrea|
+|`countryEE`|Estonia|
+|`countrySZ`|Eswatini|
+|`countryET`|Ethiopia|
+|`countryFK`|Falkland Islands (Islas Malvinas)|
+|`countryFO`|Faroe Islands|
+|`countryFJ`|Fiji|
+|`countryFI`|Finland|
+|`countryFR`|France|
+|`countryGF`|French Guiana|
+|`countryPF`|French Polynesia|
+|`countryTF`|French Southern Territories|
+|`countryGA`|Gabon|
+|`countryGM`|Gambia|
+|`countryGE`|Georgia|
+|`countryDE`|Germany|
+|`countryGH`|Ghana|
+|`countryGI`|Gibraltar|
+|`countryGR`|Greece|
+|`countryGL`|Greenland|
+|`countryGD`|Grenada|
+|`countryGP`|Guadeloupe|
+|`countryGU`|Guam|
+|`countryGT`|Guatemala|
+|`countryGN`|Guinea|
+|`countryGW`|Guinea-Bissau|
+|`countryGY`|Guyana|
+|`countryHT`|Haiti|
+|`countryHM`|Heard & McDonald Islands|
+|`countryHN`|Honduras|
+|`countryHK`|Hong Kong|
+|`countryHU`|Hungary|
+|`countryIS`|Iceland|
+|`countryIN`|India|
+|`countryID`|Indonesia|
+|`countryIR`|Iran|
+|`countryIQ`|Iraq|
+|`countryIE`|Ireland|
+|`countryIL`|Israel|
+|`countryIT`|Italy|
+|`countryJM`|Jamaica|
+|`countryJP`|Japan|
+|`countryJO`|Jordan|
+|`countryKZ`|Kazakhstan|
+|`countryKE`|Kenya|
+|`countryKI`|Kiribati|
+|`countryKW`|Kuwait|
+|`countryKG`|Kyrgyzstan|
+|`countryLA`|Laos|
+|`countryLV`|Latvia|
+|`countryLB`|Lebanon|
+|`countryLS`|Lesotho|
+|`countryLR`|Liberia|
+|`countryLY`|Libya|
+|`countryLI`|Liechtenstein|
+|`countryLT`|Lithuania|
+|`countryLU`|Luxembourg|
+|`countryMO`|Macao|
+|`countryMG`|Madagascar|
+|`countryMW`|Malawi|
+|`countryMY`|Malaysia|
+|`countryMV`|Maldives|
+|`countryML`|Mali|
+|`countryMT`|Malta|
+|`countryMH`|Marshall Islands|
+|`countryMQ`|Martinique|
+|`countryMR`|Mauritania|
+|`countryMU`|Mauritius|
+|`countryYT`|Mayotte|
+|`countryMX`|Mexico|
+|`countryFM`|Micronesia|
+|`countryMD`|Moldova|
+|`countryMC`|Monaco|
+|`countryMN`|Mongolia|
+|`countryMS`|Montserrat|
+|`countryMA`|Morocco|
+|`countryMZ`|Mozambique|
+|`countryMM`|Myanmar (Burma)|
+|`countryNA`|Namibia|
+|`countryNR`|Nauru|
+|`countryNP`|Nepal|
+|`countryNL`|Netherlands|
+|`countryNC`|New Caledonia|
+|`countryNZ`|New Zealand|
+|`countryNI`|Nicaragua|
+|`countryNE`|Niger|
+|`countryNG`|Nigeria|
+|`countryNU`|Niue|
+|`countryNF`|Norfolk Island|
+|`countryKP`|North Korea|
+|`countryMK`|North Macedonia|
+|`countryMP`|Northern Mariana Islands|
+|`countryNO`|Norway|
+|`countryOM`|Oman|
+|`countryPK`|Pakistan|
+|`countryPW`|Palau|
+|`countryPS`|Palestine|
+|`countryPA`|Panama|
+|`countryPG`|Papua New Guinea|
+|`countryPY`|Paraguay|
+|`countryPE`|Peru|
+|`countryPH`|Philippines|
+|`countryPN`|Pitcairn Islands|
+|`countryPL`|Poland|
+|`countryPT`|Portugal|
+|`countryPR`|Puerto Rico|
+|`countryQA`|Qatar|
+|`countryRE`|Réunion|
+|`countryRO`|Romania|
+|`countryRU`|Russia|
+|`countryRW`|Rwanda|
+|`countryWS`|Samoa|
+|`countrySM`|San Marino|
+|`countryST`|São Tomé & Príncipe|
+|`countrySA`|Saudi Arabia|
+|`countrySN`|Senegal|
+|`countryRS`|Serbia|
+|`countrySC`|Seychelles|
+|`countrySL`|Sierra Leone|
+|`countrySG`|Singapore|
+|`countrySK`|Slovakia|
+|`countrySI`|Slovenia|
+|`countrySB`|Solomon Islands|
+|`countrySO`|Somalia|
+|`countryZA`|South Africa|
+|`countryGS`|South Georgia & South Sandwich Islands|
+|`countryKR`|South Korea|
+|`countryES`|Spain|
+|`countryLK`|Sri Lanka|
+|`countrySH`|St. Helena|
+|`countryKN`|St. Kitts & Nevis|
+|`countryLC`|St. Lucia|
+|`countryPM`|St. Pierre & Miquelon|
+|`countryVC`|St. Vincent & Grenadines|
+|`countrySD`|Sudan|
+|`countrySR`|Suriname|
+|`countrySJ`|Svalbard & Jan Mayen|
+|`countrySE`|Sweden|
+|`countryCH`|Switzerland|
+|`countrySY`|Syria|
+|`countryTW`|Taiwan|
+|`countryTJ`|Tajikistan|
+|`countryTZ`|Tanzania|
+|`countryTH`|Thailand|
+|`countryTG`|Togo|
+|`countryTK`|Tokelau|
+|`countryTO`|Tonga|
+|`countryTT`|Trinidad & Tobago|
+|`countryTN`|Tunisia|
+|`countryTR`|Türkiye|
+|`countryTM`|Turkmenistan|
+|`countryTC`|Turks & Caicos Islands|
+|`countryTV`|Tuvalu|
+|`countryUM`|U.S. Outlying Islands|
+|`countryVI`|U.S. Virgin Islands|
+|`countryUG`|Uganda|
+|`countryUA`|Ukraine|
+|`countryAE`|United Arab Emirates|
+|`countryGB`|United Kingdom|
+|`countryUS`|United States|
+|`countryUY`|Uruguay|
+|`countryUZ`|Uzbekistan|
+|`countryVU`|Vanuatu|
+|`countryVA`|Vatican City|
+|`countryVE`|Venezuela|
+|`countryVN`|Vietnam|
+|`countryWF`|Wallis & Futuna|
+|`countryEH`|Western Sahara|
+|`countryYE`|Yemen|
+|`countryZM`|Zambia|
+|`countryZW`|Zimbabwe|
 
 ## Tài liệu tham khảo
 
+- [Google advanced search](https://www.google.com/advanced_search)
 - [[Ahrefs] Google advanced search operators](https://ahrefs.com/blog/google-advanced-search-operators/)
 - [[GoogleGuide] Sharpening queries](https://www.googleguide.com/sharpening_queries.html)
 - [[Google blog] Refine Google searches](https://support.google.com/websearch/answer/2466433)

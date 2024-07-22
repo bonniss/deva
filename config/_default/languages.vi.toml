@@ -15,9 +15,9 @@ title = "Nâu Đá Dev"
 
 [author]
   name = "Duy Trung"
-  image = "images/me.png"
+  image = "images/pulp-dance-red.gif"
   headline = "Better everyday!"
-  bio = "Thoughts run like the wind blows"
+  bio = "Now I wanna dance, I wanna win, I want that trophy, so dance good."
   links = [
     { email = "mailto:bonniss26@gmail.com" },
 #     { link = "https://link-to-some-website.com/" },

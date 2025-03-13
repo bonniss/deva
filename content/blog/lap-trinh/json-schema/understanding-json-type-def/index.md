@@ -12,7 +12,7 @@ series:
 series_order: 2
 summary: Để lái xe giỏi thì cần tập lái nhiều hay trở thành kỹ sư kỹ thuật ô tô?
 cover:
-  image: "https://source.unsplash.com/sbFmoKBK7jU"
+  image: "https://source.unsplash.com/iUbsw_VOkbM"
   alt: "Female electrical engineer designs lighting shows"
   caption: "Photo by ThisisEngineering on Unplash"
 ---

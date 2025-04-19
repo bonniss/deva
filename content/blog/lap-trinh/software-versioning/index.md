@@ -157,7 +157,7 @@ Xem thêm các dự án khác dùng CalVer tại [đây](https://calver.org/user
 
 ## 🐾 Ngoài tự nhiên
 
-### Python - chỉ có cái áo là SemVer!
+### 🐍 Python - chỉ có cái áo là SemVer!
 
 Mặc dù Python sử dụng định dạng `MAJOR.MINOR.MICRO` trông rất giống `SemVer`, *nhưng thực tế lại khác biệt đáng kể*. Lịch sử phát triển của ngôn ngữ này chứng kiến cú chuyển đổi nổi tiếng từ [**Python 2.x**](https://en.wikipedia.org/wiki/Python_2) sang [**Python 3.0**](https://www.python.org/download/releases/3.0/) *phá vỡ hoàn toàn sự tương thích ngược*:
 
@@ -173,7 +173,7 @@ Theo nguyên tắc `SemVer`, tăng `MAJOR` (từ `2` lên `3`) cho phép breakin
 - Không có công cụ migration hiệu quả ([2to3](https://docs.python.org/3.12/library/2to3.html) chỉ giúp một phần)
 - → Kết quả là cộng đồng phải duy trì Python 2 và 3 song song suốt **hơn 10 năm**
 
-📅 [**Python 2.7**](https://www.python.org/downloads/release/python-2718/), bản cuối cùng của dòng Python 2, chỉ chính thức **ngừng hỗ trợ vào ngày 1/1/2020**. 🔗 [Thông báo từ python.org](https://www.python.org/doc/sunset-python-2/). Với Python, phiên bản phản ánh **giai đoạn phát triển và triết lý thiết kế**, hơn là sự đảm bảo về API.
+📅 [**Python 2.7**](https://www.python.org/downloads/release/python-2718/), bản cuối cùng của dòng Python 2, chỉ chính thức **ngừng hỗ trợ vào ngày 1/1/2020** ([Thông báo từ python.org](https://www.python.org/doc/sunset-python-2/)). Với Python, phiên bản phản ánh **giai đoạn phát triển và triết lý thiết kế**, hơn là sự đảm bảo về API.
 
 #### Lược đồ phiên bản của trình thông dịch Python (CPython)
 
@@ -194,7 +194,7 @@ Chu kỳ phát hành Python thường rơi vào khoảng 12–18 tháng, theo qu
 
 Trước đây, hệ sinh thái Python dùng [PEP 440](https://peps.python.org/pep-0440/) làm tài liệu chuẩn cho việc đặt và so sánh phiên bản gói. Tuy nhiên, hiện tại *PEP 440 đã trở thành tài liệu lịch sử*, và được *thay thế bởi đặc tả chính thức do [Python Packaging Authority (PyPA)](https://www.pypa.io/) duy trì*:
 
-> 📖 **Tài liệu chính thức:**  
+> 📖 **Tài liệu chính thức:**
 > [Version Specifiers – PyPA Specifications](https://packaging.python.org/specifications/version-specifiers/)
 
 Một phiên bản Python hợp lệ là **dãy số theo định dạng**:
@@ -220,8 +220,8 @@ Một phiên bản Python hợp lệ là **dãy số theo định dạng**:
 
 ✅ Tất cả các ví dụ trên đều hợp lệ theo đặc tả [**Version Specifiers**](https://packaging.python.org/specifications/version-specifiers/) của [**Python Packaging Authority (PyPA)**](https://www.pypa.io/), và được hỗ trợ đầy đủ bởi:
 
-- [`pip`](https://pip.pypa.io/en/stable/cli/pip_install/#requirement-specifiers) – công cụ cài đặt gói phổ biến nhất trong Python  
-- [`setuptools`](https://setuptools.pypa.io/en/latest/userguide/dependency_management.html) – công cụ build/distribute truyền thống  
+- [`pip`](https://pip.pypa.io/en/stable/cli/pip_install/#requirement-specifiers) – công cụ cài đặt gói phổ biến nhất trong Python
+- [`setuptools`](https://setuptools.pypa.io/en/latest/userguide/dependency_management.html) – công cụ build/distribute truyền thống
 - [`poetry`](https://python-poetry.org/docs/dependency-specification/) – trình quản lý phụ thuộc và gói hiện đại, hỗ trợ `pyproject.toml`
 
 Khi khai báo phụ thuộc (`dependencies`) trong `requirements.txt`, `setup.py` hoặc `pyproject.toml`, bạn có thể sử dụng các **toán tử so sánh phiên bản** như sau:
@@ -239,24 +239,20 @@ Khi khai báo phụ thuộc (`dependencies`) trong `requirements.txt`, `setup.py
 
 🧠 **Lưu ý:** toán tử `~=` thường được dùng để cho phép nâng cấp bản vá nhưng khóa `MAJOR.MINOR`.
 
-Ok chuẩn luôn. Dưới đây là phiên bản **Angular – rút gọn 25%** so với bản trước: vẫn giữ **đủ chiều sâu**, **rõ ngữ cảnh**, **dẫn nguồn chuẩn**, nhưng loại bỏ lặp ý và tối ưu câu cú cho cô đọng hơn.
-
 ### 🅰️ Angular – Khi version là công cụ tái định vị sản phẩm
 
-#### 🧭 Từ AngularJS đến Angular mới
+#### 🧭 Từ "AngularJS" đến "Angular 2"
 
 - **AngularJS (`v1.x`)** ra đời 2010, dùng JavaScript, `$scope`, và mô hình MVC.
 - Đến 2014–2015, Google quyết định **viết lại hoàn toàn** bằng TypeScript, DI, component-based, hiệu suất tốt hơn.
 - Dự án mới mang tên "**Angular 2**", **không tương thích ngược** với AngularJS.
 
-> 📎 [What is Angular? – angular.io](https://angular.io/guide/what-is-angular)
+> 📎 [What is Angular?](https://angular.dev/overview)
 
 #### 🔥 Bỏ qua `v3` để đồng bộ package
 
 - Sau `v2.4`, `@angular/router` đã lên `v3.3`, khiến toàn bộ hệ module không đồng bộ.
 - Nhóm phát triển quyết định **bỏ qua `v3`** và nhảy thẳng lên `v4.0.0`.
-
-> 📎 [Why Angular 4.0 is Angular 3.0 – Victor Savkin](https://vsavkin.com/why-angular-4-0-is-angular-3-0-4f9a709dda7b)
 
 #### 📅 Chu kỳ phát hành đều đặn
 
@@ -264,7 +260,7 @@ Ok chuẩn luôn. Dưới đây là phiên bản **Angular – rút gọn 25%** 
 - Mỗi bản LTS được hỗ trợ **18 tháng**.
 - Một số major không có thay đổi lớn, nhưng vẫn tăng version để giữ nhịp độ.
 
-> 📎 [Release schedule – angular.io](https://angular.io/guide/releases)
+> 📎 [Angular versioning and releases](https://angular.dev/reference/releases)
 
 #### 📐 SemVer... kiểu Angular
 
@@ -281,7 +277,7 @@ Ok chuẩn luôn. Dưới đây là phiên bản **Angular – rút gọn 25%** 
   @angular/router  17.2.0
   ```
 
-> 📎 [Angular Package Format](https://angular.io/guide/angular-package-format)
+> 📎 [Angular Package Format](https://angular.dev/tools/libraries/angular-package-format)
 
 #### 📢 Version là thông điệp cộng đồng
 
@@ -290,13 +286,6 @@ Ok chuẩn luôn. Dưới đây là phiên bản **Angular – rút gọn 25%** 
 - Không gây sốc, nhưng giúp cộng đồng thống nhất hành vi cập nhật
 
 > 🧭 *Version của Angular là nhịp điệu – hơn là mức độ thay đổi.*
-
-Rõ luôn 🫡  
-Từ giờ sẽ:
-
-- Bỏ dòng kẻ giữa các mục (`---`)
-- Dùng `###` cho mỗi mục tiêu đề
-- Giữ format rút gọn như Angular vừa rồi: **cô đọng 75% nhưng vẫn đầy đủ chiều sâu**, có **nguồn chính xác**
 
 ### ⚛️ React – Khi version là cầu nối, không phải vạch ngăn
 
@@ -359,8 +348,8 @@ Từ giờ sẽ:
 
 ### 🔵 Vue.js – Phiên bản v3 mất 3 năm để được coi là chính thức
 
-- Vue khởi đầu đơn giản, tập trung vào tính dễ học và linh hoạt.  
-- `v2.0` ra mắt năm 2016, tạo nên cú hích lớn, framework nhanh chóng trở thành đối trọng với React và Angular.  
+- Vue khởi đầu đơn giản, tập trung vào tính dễ học và linh hoạt.
+- `v2.0` ra mắt năm 2016, tạo nên cú hích lớn, framework nhanh chóng trở thành đối trọng với React và Angular.
 - `v3.0` phát hành **cuối 2020**, nhưng phải đến **năm 2022** mới được đặt làm mặc định trong Vue CLI.
 
 > 📎 [Vue 3 as the New Default – Official blog](https://blog.vuejs.org/posts/vue-3-as-the-new-default.html)
@@ -384,7 +373,7 @@ Từ giờ sẽ:
   - 1 bản LTS mỗi ~2 năm, hỗ trợ 3 năm
 - Tất cả lịch phát hành và EOL được công bố công khai và duy trì ổn định từ nhiều năm qua.
 
-> 📎 [Django release process](https://docs.djangoproject.com/en/stable/internals/release-process/)  
+> 📎 [Django release process](https://docs.djangoproject.com/en/stable/internals/release-process/)
 > 📎 [Supported versions](https://www.djangoproject.com/download/#supported-versions)
 
 - Ví dụ:
@@ -420,7 +409,7 @@ Từ giờ sẽ:
 
 - Symfony dùng SemVer khá chuẩn mực, nhưng có **quy ước riêng**:
   - **Version chẵn là stable**, ví dụ `6.0`, `6.2`
-  - **Version `x.4` luôn là LTS**  
+  - **Version `x.4` luôn là LTS**
   > 📎 [Symfony Release Strategy](https://symfony.com/releases)
 
 - Chu kỳ phát hành cố định:
@@ -438,38 +427,29 @@ Từ giờ sẽ:
 
 ### 🦋 Flutter – Phiên bản nhẹ nhàng, nhưng thay đổi không nhẹ
 
+> 📎 [Flutter release notes](https://docs.flutter.dev/release/release-notes)
+
 - Flutter dùng version kiểu `X.Y.Z`, ví dụ `3.19.6`, nhưng không SemVer hoàn toàn:
   - Không luôn bump MAJOR dù có breaking
   - Thay vào đó dùng **release channels**: `stable`, `beta`, `dev`, `master`
-
-> 📎 [Flutter Versions & Channels](https://docs.flutter.dev/release/versions)
-
 - Thay đổi lớn (như Material 3, Impeller renderer, Dart isolate tweaks) có thể xuất hiện ở bất kỳ version nào – nên version chỉ **mang tính thời điểm**, không phản ánh mức độ thay đổi.
-
 - Mỗi bản Flutter cũng đi kèm version Dart tương ứng:
   - `Flutter 3.19` → `Dart 3.3`
   - `Flutter 3.13` → `Dart 3.1`
 
-> 📎 [Flutter/Dart compatibility matrix](https://docs.flutter.dev/release/archive)
+> 📎 [Flutter & Dart compatibility](https://docs.flutter.dev/release/compatibility-policy)
 
 - Vì dùng release channel, nên nhiều tính năng mới **chỉ có ở `beta` hoặc `dev` trong nhiều tháng**, trước khi merge vào `stable`.
 
 > 🔀 Flutter dùng version như đánh dấu mốc snapshot – nếu bạn ở đúng channel, bạn sẽ có “hiện tại” riêng của mình.
 
-Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu chí của bạn:
-
-- Diễn giải sâu sắc, đúng kỹ thuật  
-- Cân đối độ dài (~75% so với full verbose)  
-- Có dẫn nguồn xác tín  
-- Không có dòng phân cách hoặc tóm tắt  
-
 ### ☕ Java – CalVer trá hình, số thì đều nhưng không đơn giản
 
-- Java được phát triển bởi Sun Microsystems từ giữa thập niên 90, với version ban đầu là `1.0`.  
-- Trong hơn một thập kỷ, Java giữ format version kiểu `1.X`, ví dụ:  
-  - `1.2` (1998) → Java 2  
-  - `1.4` (2002) – cải tiến I/O và assert  
-  - `1.5` (2004) – đổi tên thành **Java 5** cho marketing dễ hơn  
+- Java được phát triển bởi Sun Microsystems từ giữa thập niên 90, với version ban đầu là `1.0`.
+- Trong hơn một thập kỷ, Java giữ format version kiểu `1.X`, ví dụ:
+  - `1.2` (1998) → Java 2
+  - `1.4` (2002) – cải tiến I/O và assert
+  - `1.5` (2004) – đổi tên thành **Java 5** cho marketing dễ hơn
   - Sau đó: `1.6` = Java 6, `1.7` = Java 7, `1.8` = Java 8
 
 > 📎 [Oracle Java Versioning FAQ](https://www.oracle.com/java/technologies/javase/versioning-naming.html)
@@ -479,14 +459,14 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 
 #### 📅 Tăng version định kỳ – nhìn như CalVer, nhưng không phải
 
-- Sau Java 9, Oracle áp dụng lịch phát hành mới:  
+- Sau Java 9, Oracle áp dụng lịch phát hành mới:
   - **Mỗi 6 tháng có một phiên bản mới**, thường vào tháng 3 và tháng 9
   - Version tăng đều: `9`, `10`, `11`, `12`, `13`, ...
   - Mỗi **3 năm có một bản LTS**:
-    - `Java 8` (2014) – LTS  
-    - `Java 11` (2018) – LTS  
-    - `Java 17` (2021) – LTS  
-    - `Java 21` (2023) – LTS  
+    - `Java 8` (2014) – LTS
+    - `Java 11` (2018) – LTS
+    - `Java 17` (2021) – LTS
+    - `Java 21` (2023) – LTS
     - `Java 25` (dự kiến 2025) – LTS tiếp theo
 
 > 📎 [OpenJDK release roadmap](https://openjdk.org/projects/jdk/)
@@ -507,7 +487,7 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 
 - Java không tuân SemVer. Một bản Java `X` có thể phá vỡ hành vi ở `X-1` (ví dụ: module system ở Java 9).
 - Tuy nhiên, từ Java 11 trở đi:
-  - API mới được thêm có annotation `@since`  
+  - API mới được thêm có annotation `@since`
   - Các thay đổi lớn đều đi kèm JEP (JDK Enhancement Proposal), giúp developer chủ động theo dõi.
 
 > 📎 [JEP Index](https://openjdk.org/jeps/0)
@@ -515,9 +495,11 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 ### Go – Khi version là sự ổn định tuyệt đối
 
 - Go ra mắt năm 2009, đến 2012 phát hành `v1.0` — và giữ nguyên major version đến… nay (`1.22` vào năm 2024).
-- Theo [Go Compatibility Promise](https://go.dev/doc/go1compat), **code viết cho Go 1.0 sẽ luôn chạy được trên mọi Go 1.x sau này**.
+- Code viết cho Go 1.0 sẽ luôn chạy được trên mọi Go 1.x sau này.
+  - Go đảm bảo tương thích ở cấp độ mã nguồn — bạn giữ `.go` là đủ.
+  - Nhưng không hứa là file biên dịch từ Go cũ sẽ chạy được trên runtime Go mới. Vì thế nên nên luôn rebuild lại project khi đổi version Go.
 
-> 📎 [Go Compatibility Promise – chính thức](https://go.dev/doc/go1compat)
+> 📎 [Go 1 compatibility](https://go.dev/doc/go1compat)
 
 - “Go 2” đã được thảo luận từ 2017, nhưng nhóm phát triển quyết định **không ra `v2.0`**, mà sẽ thêm dần các thay đổi lớn kiểu “opt-in”:
   - Error handling mới (`errors.Is`, `errors.As`)
@@ -563,23 +545,43 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 
 ---
 
-### 🧪 Elixir – Version nhẹ, backward tuyệt đối
+### 🧪 Elixir – SemVer chuẩn mực, cẩn trọng như một hiền triết
 
-- Elixir tuân thủ SemVer, nhưng cực kỳ cẩn trọng:
-  - Không phá backward compatibility trừ khi **rất cần thiết**
-  - Hầu hết các bản major là “cleanup” (deprecate từ vài bản trước)
+- Elixir tuân thủ **SemVer đầy đủ** với định dạng `MAJOR.MINOR.PATCH`, và thực hiện đúng các quy tắc:
+  - Tăng **MAJOR** nếu có breaking change
+  - Tăng **MINOR** khi thêm tính năng mới, vẫn giữ tương thích
+  - Tăng **PATCH** khi sửa lỗi hoặc cải thiện không ảnh hưởng hành vi
 
-> 📎 [Elixir Changelog](https://github.com/elixir-lang/elixir/blob/main/CHANGELOG.md)
+- Tuy nhiên, điểm đặc biệt ở Elixir không nằm ở định dạng, mà nằm ở **cách họ quản lý việc thay đổi**. Cộng đồng Elixir (do José Valim dẫn dắt) có triết lý rất chặt chẽ về **stability-first**:
+
+  - Không bao giờ đưa breaking change “đột ngột”.
+  - Mọi thay đổi phá vỡ tương thích đều được **deprecate trước đó nhiều version**, thường là từ 2–3 version minor.
+  - Deprecation luôn đi kèm:
+    - Thông báo rõ ràng trong changelog
+    - Cảnh báo runtime hoặc compile-time
+    - Tài liệu thay thế / migration rõ ràng
 
 - Ví dụ:
-  - `v1.6`: formatter
-  - `v1.9`: release manager
-  - `v1.12`: compiler tracing
-  - `v1.15`: module attributes improvements
+  - `v1.11` deprecate một số hành vi của `Code.eval_string`
+  - `v1.13` deprecate `Logger.metadata/1` khi dùng sai kiểu
+  - `v1.15` chính thức loại bỏ các API đã cảnh báo từ `v1.11`–`v1.13`
+  → Điều này cho phép developer có **ít nhất 12–18 tháng chuẩn bị**
 
-- Hex package manager, Mix, BEAM đều dùng chung versioning discipline.
+- Chính vì vậy, các bản **MAJOR của Elixir thường không phải để giới thiệu tính năng mới**, mà là dịp để:
+  - **Gỡ bỏ các API lỗi thời**
+  - **Ổn định lại API đã cảnh báo**
+  - **Tái cấu trúc nhẹ cho chuẩn hóa hành vi**
 
-> 🧘 *Elixir dùng version như cách một nhà hiền triết nâng tạ: từ tốn, đúng form.*
+- Ngoài core language, các công cụ quan trọng như:
+  - `Mix` (build tool)
+  - `Hex` (package manager)
+  - `ExUnit` (testing)
+  - và thậm chí cả VM layer (BEAM/Erlang)
+  → đều được phát triển và version hóa theo cùng tinh thần cẩn trọng và tương thích cao.
+
+> 📎 [Changelog chính thức của Elixir](https://github.com/elixir-lang/elixir/blob/main/CHANGELOG.md)
+
+> 🧘 Với Elixir, version không chỉ để đếm — mà là nhịp thở đều đặn, ổn định và minh bạch. Một framework không hứa sẽ làm bạn “wow” ở mỗi bản mới, nhưng sẽ khiến bạn **tin tưởng** để đầu tư dài hạn.
 
 ---
 
@@ -591,8 +593,8 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 
 > 📎 [TypeScript Versioning Policy](https://github.com/microsoft/TypeScript/wiki/TypeScript-Versioning-Policy)
 
-- `v3.0`: introduce project references  
-- `v4.0`: variadic tuples  
+- `v3.0`: introduce project references
+- `v4.0`: variadic tuples
 - `v5.0`: decorators chính thức, performance rewrite
 
 - Tăng version đều đặn 3–4 bản mỗi năm. Không có LTS – dùng latest là best practice.
@@ -622,10 +624,10 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 ### 🐘 PostgreSQL – Tiệm cận SemVer, nhưng khác một nhịp
 
 - Trước phiên bản `10.0`, PostgreSQL dùng format `MAJOR.MINOR.PATCH`, ví dụ: `9.6.3`, `9.5.21`, v.v.
-- Từ `v10` (2017), chuyển sang **2-part versioning**: `MAJOR.MINOR`.  
+- Từ `v10` (2017), chuyển sang **2-part versioning**: `MAJOR.MINOR`.
   - Ví dụ: `15.4` = bản vá thứ 4 của dòng `15`, không có PATCH riêng.
 
-> 📎 [PostgreSQL versioning policy](https://www.postgresql.org/support/versioning/)  
+> 📎 [PostgreSQL versioning policy](https://www.postgresql.org/support/versioning/)
 > 📎 [Release notes](https://www.postgresql.org/docs/release/)
 
 - Một bản `x.0` mới được phát hành **mỗi năm**, thường vào tháng 9.
@@ -663,8 +665,8 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 - Không dùng CalVer chính thức, nhưng **tăng số major đều như CalVer**:
   - `5.0` (2021) → `6.0` (2022) → `7.0` (2023)
 
-- Tính năng mới đi kèm version rõ ràng:  
-  - `6.0`: Time Series Enhancements  
+- Tính năng mới đi kèm version rõ ràng:
+  - `6.0`: Time Series Enhancements
   - `7.0`: Queryable Encryption
 
 - Version tăng đều, nhưng Mongo không theo SemVer – vẫn phá API nhẹ ở minor (ví dụ: bỏ syntax cũ cho aggregation).
@@ -697,7 +699,7 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 - SQLite dùng version `X.Y.Z`, nhưng thật ra là **chuyển thể từ ngày + số lượng testcase**:
   - `3.36.0` = phiên bản tháng 6/2021, sau 3 triệu test cases
 
-> 📎 [SQLite Chronology](https://www.sqlite.org/chronology.html)  
+> 📎 [SQLite Chronology](https://www.sqlite.org/chronology.html)
 > 📎 [Release policy](https://www.sqlite.org/releaselog/)
 
 - Không có LTS, không có CalVer, không cần major bump – mỗi bản mới được đánh số tuần tự.
@@ -761,7 +763,7 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 - Debian là hệ điều hành Linux được phát triển bởi cộng đồng, có lịch sử lâu đời nhất trong các distro còn hoạt động mạnh.
 - Phiên bản Debian có **số hiệu kiểu `X.Y`** như `12.5`, `11.7`, tương đối giống SemVer nhưng không có quy định rõ ràng về breaking change.
 
-> 📎 [Debian Releases](https://www.debian.org/releases/)  
+> 📎 [Debian Releases](https://www.debian.org/releases/)
 > 📎 [Debian Version History](https://www.debian.org/doc/manuals/project-history/releases.en.html)
 
 - Điểm đặc biệt: **mỗi bản phát hành có tên mã theo nhân vật Toy Story**, ví dụ:
@@ -769,7 +771,7 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
   - `2.2` Potato
   - `6.0` Squeeze
   - `7` Wheezy
-  - `12` Bookworm  
+  - `12` Bookworm
 - Các tên mã thường được nhắc đến trong quá trình cài đặt hoặc cấu hình sources list (`/etc/apt/sources.list`)
 
 > 🎭 Với Debian, version là định danh kỹ thuật – còn codename là bản sắc cộng đồng.
@@ -784,9 +786,9 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 > 📎 [Ubuntu release cycle](https://ubuntu.com/about/release-cycle)
 
 - Mỗi bản Ubuntu có tên **động vật** theo thứ tự alphabet:
-  - `16.04 Xenial Xerus`  
-  - `18.04 Bionic Beaver`  
-  - `22.04 Jammy Jellyfish`  
+  - `16.04 Xenial Xerus`
+  - `18.04 Bionic Beaver`
+  - `22.04 Jammy Jellyfish`
   - `24.04 Noble Numbat`
 
 - Các bản `.04` là LTS (Long-Term Support), được Canonical hỗ trợ 5 năm (có thể gia hạn đến 10 năm với Ubuntu Pro)
@@ -858,10 +860,10 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 ### 🧬 Linux Kernel – Sống lâu trong chuỗi `1.x`, `2.x`, rồi nhảy đều
 
 - Kernel Linux từng giữ `2.6.x` suốt **từ 2003 đến 2011**
-- Sau đó:  
-  - `3.x` (2011–2015)  
-  - `4.x` (2015–2019)  
-  - `5.x` (2019–2022)  
+- Sau đó:
+  - `3.x` (2011–2015)
+  - `4.x` (2015–2019)
+  - `5.x` (2019–2022)
   - `6.x` (từ 2022 đến nay)
 
 > 📎 [Linux Kernel release timeline – Wikipedia](https://en.wikipedia.org/wiki/Linux_kernel#Version_numbering)
@@ -979,7 +981,7 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 
 > 📎 [Unity release cycle](https://unity.com/releases/editor/qa/lts-releases)
 
-- `.X` là Tech Stream (TS) – bản mới nhiều tính năng  
+- `.X` là Tech Stream (TS) – bản mới nhiều tính năng
   - `.3` thường là bản LTS, được support 2 năm
 
 - Trước đó Unity có version `5.x`, `2017.x`, rồi chuyển dần sang CalVer sau khi 2 dòng TS/LTS được tách rõ
@@ -992,14 +994,14 @@ Dưới đây là bản viết lại chi tiết cho **Java**, theo đúng tiêu 
 
 - Trước `v3`, OpenSSL dùng version kiểu `1.0.2`, `1.1.1`, với từng bản có vòng đời LTS riêng
 - Đến năm 2021, ra mắt `v3.0.0`, cải tổ policy version hóa:
-  - Version `X.Y.Z`  
-  - **X**: major – breaking  
-  - **Y**: minor – feature, backward-compatible  
+  - Version `X.Y.Z`
+  - **X**: major – breaking
+  - **Y**: minor – feature, backward-compatible
   - **Z**: patch
 
 > 📎 [OpenSSL release strategy](https://www.openssl.org/policies/releasestrat.html)
 
-- `v3.0` là bản đầu tiên dưới chính sách mới, LTS đến 2026  
+- `v3.0` là bản đầu tiên dưới chính sách mới, LTS đến 2026
 - `v3.2`, `v3.3` thêm tính năng như QUIC, engine rewrite
 
 > 🛡️ OpenSSL dùng version như giấy chứng nhận an toàn – ai dùng bản cũ tự chịu trách nhiệm.

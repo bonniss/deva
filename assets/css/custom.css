@@ -243,3 +243,13 @@
   --tw3-rose-800: #9f1239;
   --tw3-rose-900: #881337;
 }
+
+/* ------------------------- */
+/* Override Blowfish styles */
+/* ------------------------- */
+html:not(.dark) #menu-blur {
+  background: rgba(240, 240, 240, 0.85);
+}
+html.dark #menu-blur {
+  background-color: rgba(var(--color-neutral-800), 0.85);
+}
